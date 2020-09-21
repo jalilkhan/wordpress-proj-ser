@@ -1,0 +1,30 @@
+
+
+/* Post banner */
+.bt_bb_row .bt_bb_banner {
+    padding: 5px;
+    text-align: center;
+    }
+.btLightSkin .bt_bb_row .bt_bb_banner,
+.btDarkSkin .btLightSkin .bt_bb_row .bt_bb_banner,
+.btLightSkin .btDarkSkin .btLightSkin .bt_bb_row .bt_bb_banner {
+    background: rgba(0,0,0,.1);
+    }
+.btDarkSkin .bt_bb_row .bt_bb_banner,
+.btLightSkin .btDarkSkin .bt_bb_row .bt_bb_banner,
+.btDarkSkin.btLightSkin .btDarkSkin .bt_bb_row .bt_bb_banner {
+    background: rgba(255,255,255,.1);
+    }
+.bt_bb_row .bt_bb_banner > div {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    }
+.bt_bb_row .bt_bb_banner img {
+    display: block;
+    margin: 0 auto;
+    }
+.bt_bb_row .bt_bb_banner.no-border {
+    background: initial;
+    border-width: 0;
+    -webkit-box-shadow: initial;
+    }

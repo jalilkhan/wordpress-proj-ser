@@ -1,0 +1,37 @@
+/*
+ Theme Name:   Bello Child
+ Theme URI:    http://bello.bold-themes.com
+ Description:  Bello Child Theme
+ Author:       BoldThemes
+ Author URI:   http://bold-themes.com
+ Template:     bello
+ Version:      1.0.0
+ Tags:         one-column, right-sidebar, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  bello-child
+*/
+
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+.bt_bb_listing_box.bt_bb_listing_featured:before {
+    display: block;
+    font-family: FontAwesome;
+    content: "\f005";
+    display: block;
+    position: absolute;
+    font-size: 1rem;
+    z-index: 2000;
+    left: -4px;
+    width: 1.875rem;
+    height: 1.875rem;
+    text-align: center;
+    line-height: 1.875rem;
+    border-radius: 50%;
+    top: 10px;
+    pointer-events: none;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+    transition: 300ms ease;
+    color: #fff;
+    }

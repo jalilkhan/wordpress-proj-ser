@@ -1,0 +1,2 @@
+2020-09-09T06:18:20+00:00 CRITICAL require_once(): Failed opening required '/var/www/vhosts/servent.lu/httpdocs/wp-content/plugins/woocommerce/packages/woocommerce-rest-api/src/Controllers/Version3/class-wc-rest-controller.php' (include_path='.:/opt/plesk/php/7.3/share/pear') in /var/www/vhosts/servent.lu/httpdocs/wp-content/plugins/jetpack/vendor/jetpack-autoloader/autoload_functions.php on line 39
+

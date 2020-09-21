@@ -1,0 +1,61 @@
+/* Settings metabox */
+.rwmb-meta-box .rwmb-field.rwmb-boldthemestext-wrapper {
+	width: 100%;
+	float: none;
+}
+
+.rwmb-input input[type="text"],
+.rwmb-meta-box .rwmb-field.rwmb-boldthemestext-wrapper input,
+.rwmb-meta-box .rwmb-field.rwmb-boldthemestext-wrapper select {
+	width: 250px;
+}
+.rwmb-meta-box .rwmb-field.rwmb-boldthemestext-wrapper input[type="checkbox"] {
+	width: 16px;
+}
+
+/* Meta Box */
+.rwmb-boldthemestext-wrapper option:disabled {
+	font-weight: bold;
+	color: #0073aa;
+}
+.rwmb-boldthemestext-clone select {
+	height: auto;
+}
+.rwmb-boldthemestext-clone input[type="text"] {
+	vertical-align: middle;
+}
+.rwmb-boldthemestext-clone select.boldthemes_key_select {
+	float: left;
+	margin-right: 3px;
+}
+.rwmb-boldthemestext-clone .wp-picker-container {
+	margin-top: 2px;
+}
+.rwmb-boldthemestext-clone input[type="checkbox"].boldthemes_value {
+	margin: 6px 3px 7px !important;
+}
+.rwmb-boldthemestext-clone .wp-picker-container .wp-color-result {
+	margin-bottom: 3px;
+}
+.rwmb-boldthemestext-clone img {
+	width: auto;
+    height: 27px;
+    vertical-align: middle;
+	margin-left: 3px;
+}
+.rwmb-boldthemestext-clone .boldthemes_override_add_image {
+	cursor: pointer;
+	margin-left: 3px;
+	color: #0073aa;
+    display: inline-block;
+}
+.rwmb-label {
+	padding-right: 1%;
+	box-sizing: border-box;
+}
+
+/* Customize */
+.customize-control-image, .customize-control-text, .customize-control-select, .customize-control-radio, .customize-control-checkbox, .customize-control-color {
+	padding-top:5px;
+	padding-bottom:5px;
+}

@@ -1,0 +1,1560 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: bello.php:243 bello.php:1323
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-11 16:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bello.php:54
+msgid "Header Left Widgets"
+msgstr ""
+
+#: bello.php:60
+msgid "Header Right Widgets"
+msgstr ""
+
+#: bello.php:66
+msgid "Header Menu Widgets"
+msgstr ""
+
+#: bello.php:72
+msgid "Header Logo Widgets"
+msgstr ""
+
+#: bello.php:78
+msgid "Footer Widgets"
+msgstr ""
+
+#: bello.php:86
+msgid "Listing Banner"
+msgstr ""
+
+#: bello.php:94
+msgid "Listing With Map Banner"
+msgstr ""
+
+#: bello.php:102
+msgid "Listing Without Map Banner"
+msgstr ""
+
+#: bello.php:155 bello.php:1071
+msgid "Custom Fields"
+msgstr ""
+
+#: bello.php:159
+msgid ""
+"List of custom fields for the category. Please define the fields with the "
+"help of our extensive documentation.<br><a href=\"http://documentation.bold-"
+"themes.com/bello/creating-pages-and-posts/#custom-fields\" target=\"_blank"
+"\">Find out more about defining a category</a><br><a href=\"http://"
+"documentation.bold-themes.com/bello/groups-fields-types/\" target=\"_blank"
+"\">Find out more about field types</a>"
+msgstr ""
+
+#: bello.php:242
+msgid "Featured listing package"
+msgstr ""
+
+#: bello.php:282
+msgid "Custom Field Settings"
+msgstr ""
+
+#: bello.php:283
+msgid ""
+"Set your custom field settings for this category, where will they show up, "
+"if they're required and in which package will the show up.<br><a href="
+"\"http://documentation.bold-themes.com/bello/creating-pages-and-posts/"
+"#custom-field-settings\" target=\"_blank\"><b>Find out more</b></a>"
+msgstr ""
+
+#: bello.php:292
+msgid "Custom Field Slug"
+msgstr ""
+
+#: bello.php:293
+msgid "Search"
+msgstr ""
+
+#: bello.php:294
+msgid "Advanced Search"
+msgstr ""
+
+#: bello.php:295
+msgid "Mandatory"
+msgstr ""
+
+#: bello.php:296
+msgid "Packages"
+msgstr ""
+
+#: bello.php:310 bello.php:1177 woocommerce_listing_endpoint.php:127
+msgid "Default"
+msgstr ""
+
+#: bello.php:911
+msgid "Nearby locations"
+msgstr ""
+
+#: bello.php:1085
+msgid "Listing Subtitle"
+msgstr ""
+
+#: bello.php:1094
+msgid "Subtitle"
+msgstr ""
+
+#: bello.php:1189
+msgid "Listing Package"
+msgstr ""
+
+#: bello.php:1199 listing_cpt.php:67
+msgid "Package"
+msgstr ""
+
+#: bello.php:1228
+msgid ""
+"<div class=\"updated\" style=\"border-left: 4px solid #ffba00\"><p>Custom "
+"Field is not well formatted: "
+msgstr ""
+
+#: bello.php:1228
+msgid "</p></div>"
+msgstr ""
+
+#: bello.php:1300 listing_cpt.php:28
+msgid "Category"
+msgstr ""
+
+#: bello.php:1313 bello.php:1332
+msgid "Listing Tags"
+msgstr ""
+
+#: bello.php:1314
+msgid ""
+"If you want to associate Your Published Listing with TAGS simply choose from "
+"a tags shown below."
+msgstr ""
+
+#: bello.php:1333
+msgid ""
+"You will be able to associate This Listing with TAGS when Listing get "
+"published."
+msgstr ""
+
+#: bello.php:1742
+msgid "BT Banner"
+msgstr ""
+
+#: bello.php:1744
+msgid "Banner widget designed to be used in header, sidebar or Single Listing."
+msgstr ""
+
+#: bello.php:1782 bello.php:1910 bello.php:2108 bello.php:2181 bello.php:2276
+msgid "Title:"
+msgstr ""
+
+#: bello.php:1786
+msgid "Custom class:"
+msgstr ""
+
+#: bello.php:1790
+msgid "Banner code:"
+msgstr ""
+
+#: bello.php:1793
+msgid ""
+"For more help with this widget, please <a href=\"http://documentation.bold-"
+"themes.com/bello/widgets/#bt-banner\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: bello.php:1816
+msgid "BT Listing"
+msgstr ""
+
+#: bello.php:1817
+msgid ""
+"Widget designed to show all sorts of fields you define throught the "
+"categories."
+msgstr ""
+
+#: bello.php:1914
+msgid "Slug:"
+msgstr ""
+
+#: bello.php:1918
+msgid "Responsive Position:"
+msgstr ""
+
+#: bello.php:1920
+msgid "Sidebar"
+msgstr ""
+
+#: bello.php:1921
+msgid "Before Content"
+msgstr ""
+
+#: bello.php:1922
+msgid "After Content"
+msgstr ""
+
+#: bello.php:1924
+msgid ""
+"For more help with this widget, please <a href=\"http://documentation.bold-"
+"themes.com/bello/widgets/#bt-listing\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: bello.php:1948
+msgid "BT User"
+msgstr ""
+
+#: bello.php:1949
+msgid ""
+"Widged designed to be used in header with Login/Register button when not "
+"signed in and My Account and Add a new listing when logged in."
+msgstr ""
+
+#: bello.php:1977
+msgid ""
+"For more help with this widget, please <a href=\"//documentation.bold-themes."
+"com/bello/widgets/#bt-user\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: bello.php:1998
+msgid "BT Claim"
+msgstr ""
+
+#: bello.php:2000
+msgid "Widget used to show Claim this business button."
+msgstr ""
+
+#: bello.php:2031
+msgid ""
+"<span class=\"bt_claim_pending\">Your claim for this listing is pending.</"
+"span>"
+msgstr ""
+
+#: bello.php:2043
+msgid "Custom text:"
+msgstr ""
+
+#: bello.php:2046
+msgid ""
+"For more help with this widget, please <a href=\"http://documentation.bold-"
+"themes.com/bello/widgets/#bt-claim\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: bello.php:2067
+msgid "BT Listing Form"
+msgstr ""
+
+#: bello.php:2068
+msgid ""
+"Widget designed to be used for a Contact form, so that visitors can contact "
+"directly with Listing Business owner."
+msgstr ""
+
+#: bello.php:2111
+msgid ""
+"For more help with this widget, please <a href=\"http://documentation.bold-"
+"themes.com/bello/widgets/#bt-listing-form\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: bello.php:2130
+msgid "BT OpenTable"
+msgstr ""
+
+#: bello.php:2132
+msgid "OpenTable Widget designed to be used with OpenTable booking website."
+msgstr ""
+
+#: bello.php:2185
+msgid "OpenTable Restaurant ID:"
+msgstr ""
+
+#: bello.php:2190
+msgid "Show labels"
+msgstr ""
+
+#: bello.php:2194
+msgid "Show icons"
+msgstr ""
+
+#: bello.php:2197
+msgid "Country:"
+msgstr ""
+
+#: bello.php:2212
+msgid ""
+"For more help with this widget, please <a href=\"http://documentation.bold-"
+"themes.com/bello/widgets/#bt-opentable\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: bello.php:2237
+msgid "BT Resurva"
+msgstr ""
+
+#: bello.php:2239
+msgid "Resurva Widget designed to be used with Resurva booking website."
+msgstr ""
+
+#: bello.php:2280
+msgid "Resurva URL:"
+msgstr ""
+
+#: bello.php:2283
+msgid ""
+"For more help with this widget, please <a href=\"http://documentation.bold-"
+"themes.com/bello/widgets/#bt-resurva\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: bello.php:2307
+msgid "BT Header Search"
+msgstr ""
+
+#: bello.php:2309
+msgid ""
+"Widget with a Search Button that has a custom link - mainly used to redirect "
+"user to advanced search."
+msgstr ""
+
+#: bello.php:2331
+msgid "URL:"
+msgstr ""
+
+#: bello.php:2334
+msgid ""
+"For more help with this widget, please <a href=\"http://documentation.bold-"
+"themes.com/bello/widgets/#bt-header-search\" target=\"_blank\">click here</"
+"a>."
+msgstr ""
+
+#: bello.php:2391 bello.php:2418
+msgid "Review Rating *"
+msgstr ""
+
+#: bello.php:2401 bello.php:2428
+msgid "Title of the review *"
+msgstr ""
+
+#: bello.php:2403
+msgid "Your review *"
+msgstr ""
+
+#: bello.php:2458
+msgid ""
+"Error: You did not add a rating. Hit the Back button on your Web browser and "
+"resubmit your comment with a rating."
+msgstr ""
+
+#: bello.php:2492
+msgid "Extended Comment"
+msgstr ""
+
+#: bello.php:2509 woocommerce_listing_endpoint.php:269
+#: woocommerce_listing_endpoint.php:330
+msgid "Title"
+msgstr ""
+
+#: bello.php:2513
+msgid "Rating: "
+msgstr ""
+
+#: bello.php:2825
+msgid "OPEN 24h"
+msgstr ""
+
+#: bello.php:3240
+msgid "Image files must be smaller than "
+msgstr ""
+
+#: listing_cpt.php:12 fields/front_end_templates/contact_form.php:44
+#: inc/include_claim.php:47
+msgid "Listing"
+msgstr ""
+
+#: listing_cpt.php:13
+msgid "Listing Item"
+msgstr ""
+
+#: listing_cpt.php:27
+msgid "Categories"
+msgstr ""
+
+#: listing_cpt.php:34
+msgid "Regions"
+msgstr ""
+
+#: listing_cpt.php:34
+msgid "Region"
+msgstr ""
+
+#: listing_cpt.php:36
+msgid "Tags"
+msgstr ""
+
+#: listing_cpt.php:36
+msgid "Tag"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:57
+msgid "My Listings"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:125
+msgid "Select package"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:138
+msgid "Get new package"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:172
+msgid "You can only add one listing package per order. "
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:265 woocommerce_listing_endpoint.php:325
+msgid "Edit listing"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:270 woocommerce_listing_endpoint.php:331
+msgid "Content"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:271 woocommerce_listing_endpoint.php:332
+msgid "Excerpt"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:272 woocommerce_listing_endpoint.php:333
+msgid "Thumbnail"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:273 woocommerce_listing_endpoint.php:334
+#: woocommerce_listing_endpoint.php:379
+msgid "Submit"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:356
+msgid "Add new listing"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:357
+msgid "Please select category:"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:384
+msgid "Your listings"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:429
+msgid "Preview"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:431
+msgid "Pending approval"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:433 inc/include_html.php:1678
+msgid "Edit"
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:434
+msgid "Are you sure you want to delete "
+msgstr ""
+
+#: woocommerce_listing_endpoint.php:434
+msgid "Delete"
+msgstr ""
+
+#: fields/opentable.php:13
+msgid "Opentable Restaurant ID"
+msgstr ""
+
+#: fields/opentable.php:15
+msgid "Select Country"
+msgstr ""
+
+#: fields/phone.php:10
+msgid "Phone number"
+msgstr ""
+
+#: fields/price.php:48 fields/front_end_templates/search/price.php:16
+#: fields/front_end_templates/search/price_from.php:14
+msgid "Price From"
+msgstr ""
+
+#: fields/price.php:49 fields/front_end_templates/search/price.php:19
+#: fields/front_end_templates/search/price_to.php:14
+msgid "Price To"
+msgstr ""
+
+#: fields/price.php:52 inc/include_html.php:1459
+msgid "Free"
+msgstr ""
+
+#: fields/resurva.php:19
+msgid "Resurva URL"
+msgstr ""
+
+#: fields/timekit.php:31 fields/front_end_templates/contact_form.php:40
+#: widgets/bb_listing_marker_contact_form_widget.php:37
+#: widgets/php/bb_listing_marker_contact_form-process.php:38
+msgid "Name"
+msgstr ""
+
+#: fields/timekit.php:32 fields/front_end_templates/contact_form.php:41
+#: widgets/bb_listing_marker_contact_form_widget.php:38
+#: widgets/php/bb_listing_marker_contact_form-process.php:39
+msgid "Email"
+msgstr ""
+
+#: fields/timekit.php:33
+msgid "App"
+msgstr ""
+
+#: fields/timekit.php:34
+msgid "API Token"
+msgstr ""
+
+#: fields/timekit.php:35
+msgid "Calendar"
+msgstr ""
+
+#: fields/timekit.php:36
+msgid "Widget ID"
+msgstr ""
+
+#: fields/working_time.php:35 fields/working_time.php:39
+msgid "Start"
+msgstr ""
+
+#: fields/working_time.php:36 fields/working_time.php:40
+msgid "End"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:16
+#: widgets/bb_listing_marker_contact_form_widget.php:10
+#: widgets/php/bb_listing_marker_contact_form-process.php:6
+msgid "Please supply all necessary information!"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:17
+#: widgets/bb_listing_marker_contact_form_widget.php:11
+#: widgets/php/bb_listing_marker_contact_form-process.php:7
+msgid "Email Address Invalid!"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:18
+#: widgets/bb_listing_marker_contact_form_widget.php:12
+#: widgets/php/bb_listing_marker_contact_form-process.php:8
+msgid "Message was not sent. Try Again!"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:19
+#: widgets/bb_listing_marker_contact_form_widget.php:13
+#: widgets/php/bb_listing_marker_contact_form-process.php:9
+msgid "Thanks! Your message has been sent!"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:32
+msgid "Custom Listing Contact message sent from"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:42
+#: widgets/bb_listing_marker_contact_form_widget.php:39
+#: widgets/php/bb_listing_marker_contact_form-process.php:40
+msgid "Phone"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:43
+#: widgets/bb_listing_marker_contact_form_widget.php:40
+#: widgets/php/bb_listing_marker_contact_form-process.php:41
+msgid "Message"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:86
+#: fields/front_end_templates/timekit.php:37
+#: widgets/bb_listing_marker_contact_form_widget.php:67
+msgid "Your name"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:87
+#: widgets/bb_listing_marker_contact_form_widget.php:68
+msgid "Your e-mail address"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:88
+#: fields/front_end_templates/timekit.php:44
+#: widgets/bb_listing_marker_contact_form_widget.php:69
+msgid "Your phone number"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:89
+#: widgets/bb_listing_marker_contact_form_widget.php:70
+msgid "Your Message"
+msgstr ""
+
+#: fields/front_end_templates/contact_form.php:93
+#: widgets/bb_listing_marker_contact_form_widget.php:71
+msgid "Send message"
+msgstr ""
+
+#: fields/front_end_templates/map.php:178 inc/include_html.php:1012
+#: widgets/bb_listing_marker_options_widget.php:21
+msgid "Get directions"
+msgstr ""
+
+#: fields/front_end_templates/map.php:186 inc/include_html.php:1021
+#: inc/include_html.php:1206 inc/include_html.php:1720
+#: widgets/bb_listing_marker_options_widget.php:23
+msgid "Write a review"
+msgstr ""
+
+#: fields/front_end_templates/map.php:194 inc/include_html.php:1026
+#: widgets/bb_listing_marker_options_widget.php:25
+msgid "Make a call"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:19
+msgid "Book with Opentable"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:28 inc/include_claim.php:51
+#: widgets/bt_bb_open_table_reservation_widget.php:8
+msgid "Date"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:34
+#: widgets/bt_bb_open_table_reservation_widget.php:14
+msgid "Time"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:55
+#: widgets/bt_bb_open_table_reservation_widget.php:35
+msgid "People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:58
+#: widgets/bt_bb_open_table_reservation_widget.php:38
+msgid "1 Person"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:59
+#: widgets/bt_bb_open_table_reservation_widget.php:39
+msgid "2 People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:60
+#: widgets/bt_bb_open_table_reservation_widget.php:40
+msgid "3 People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:61
+#: widgets/bt_bb_open_table_reservation_widget.php:41
+msgid "4 People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:62
+#: widgets/bt_bb_open_table_reservation_widget.php:42
+msgid "5 People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:63
+#: widgets/bt_bb_open_table_reservation_widget.php:43
+msgid "6 People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:64
+#: widgets/bt_bb_open_table_reservation_widget.php:44
+msgid "7 People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:65
+#: widgets/bt_bb_open_table_reservation_widget.php:45
+msgid "8 People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:66
+#: widgets/bt_bb_open_table_reservation_widget.php:46
+msgid "9 People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:67
+#: widgets/bt_bb_open_table_reservation_widget.php:47
+msgid "10 People"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:73
+#: widgets/bt_bb_open_table_reservation_widget.php:53
+msgid "Find a table"
+msgstr ""
+
+#: fields/front_end_templates/opentable.php:83
+#: widgets/bt_bb_open_table_reservation_widget.php:63
+msgid "OpenTable restaurant ID is not valid."
+msgstr ""
+
+#: fields/front_end_templates/resurva.php:14
+msgid "Click here to book"
+msgstr ""
+
+#: fields/front_end_templates/resurva.php:19
+msgid "Book with Resurva"
+msgstr ""
+
+#: fields/front_end_templates/timekit.php:40
+msgid "Your email"
+msgstr ""
+
+#: fields/front_end_templates/working_time.php:18
+#: fields/front_end_templates/working_time.php:22
+#: fields/front_end_templates/working_time.php:28 inc/include_html.php:180
+#: inc/include_html.php:763 inc/include_html.php:1062
+#: inc/include_html.php:1074
+msgid "Now closed"
+msgstr ""
+
+#: fields/front_end_templates/working_time.php:22
+#: fields/front_end_templates/working_time.php:30 inc/include_html.php:1064
+#: inc/include_html.php:1079
+msgid "Show working hours"
+msgstr ""
+
+#: fields/front_end_templates/working_time.php:24
+msgid "Opens at"
+msgstr ""
+
+#: fields/front_end_templates/working_time.php:30 inc/include_html.php:1077
+msgid "Now open"
+msgstr ""
+
+#: fields/front_end_templates/working_time.php:79 inc/include_html.php:1120
+msgid "CLOSED"
+msgstr ""
+
+#: fields/front_end_templates/search/map.php:27
+msgid "Where to look for?"
+msgstr ""
+
+#: fields/front_end_templates/search/map.php:28
+msgid "Search for a location or let us detect your location"
+msgstr ""
+
+#: fields/front_end_templates/search/map.php:30
+msgid "Click here to detect your location or reset to default location"
+msgstr ""
+
+#: fields/front_end_templates/search/map.php:31
+msgid "Search for location"
+msgstr ""
+
+#: fields/front_end_templates/search/map.php:35
+msgid "Distance"
+msgstr ""
+
+#: fields/front_end_templates/search/map.php:36
+msgid "Distance is disabled from search when equals zero"
+msgstr ""
+
+#: fields/front_end_templates/search/number.php:12
+#: fields/front_end_templates/search/price.php:11
+msgid "Price range"
+msgstr ""
+
+#: fields/front_end_templates/search/price_from.php:12
+msgid "Price from"
+msgstr ""
+
+#: fields/front_end_templates/search/price_to.php:12
+msgid "Price to"
+msgstr ""
+
+#: fields/front_end_templates/search/working_time.php:8
+msgid "Open?"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:22
+msgid "Custom JS"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:48 framework_bt_plugin/framework.php:171
+#: framework_bt_plugin/framework.php:294 framework_bt_plugin/framework.php:423
+msgid "Share on Facebook"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:72 framework_bt_plugin/framework.php:195
+#: framework_bt_plugin/framework.php:318 framework_bt_plugin/framework.php:438
+msgid "Share on Twitter"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:97 framework_bt_plugin/framework.php:220
+#: framework_bt_plugin/framework.php:342
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:121 framework_bt_plugin/framework.php:244
+#: framework_bt_plugin/framework.php:366 framework_bt_plugin/framework.php:469
+msgid "Share on VK"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:145 framework_bt_plugin/framework.php:268
+#: framework_bt_plugin/framework.php:390 framework_bt_plugin/framework.php:485
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:453
+msgid "Share on Linkedin"
+msgstr ""
+
+#: inc/claim-metaboxes.php:15
+msgid "Pending"
+msgstr ""
+
+#: inc/claim-metaboxes.php:16
+msgid "Approved"
+msgstr ""
+
+#: inc/claim-metaboxes.php:17
+msgid "Rejected"
+msgstr ""
+
+#: inc/claim-metaboxes.php:22
+msgid "Claim Listing"
+msgstr ""
+
+#: inc/claim-metaboxes.php:28 inc/include_claim.php:49
+msgid "Claimed by"
+msgstr ""
+
+#: inc/claim-metaboxes.php:34
+msgid "Listing Author"
+msgstr ""
+
+#: inc/claim-metaboxes.php:39
+msgid "Claim Status"
+msgstr ""
+
+#: inc/claim-metaboxes.php:45
+msgid "Claim Description"
+msgstr ""
+
+#: inc/claim-metaboxes.php:53 inc/my-account/includes/form-login.php:141
+msgid "Claim Details"
+msgstr ""
+
+#: inc/claim-metaboxes.php:307
+msgid "Your claim has been submitted"
+msgstr ""
+
+#: inc/claim-metaboxes.php:308
+msgid ""
+"Your Claim on listing <a href=\"%listing_url\">%listing_title</a> has been "
+"submitted."
+msgstr ""
+
+#: inc/claim-metaboxes.php:310
+msgid "A claim has been submitted on your listing"
+msgstr ""
+
+#: inc/claim-metaboxes.php:311
+msgid ""
+"A claim has been submitted on your listing <a href=\"%listing_url\">"
+"%listing_title</a>. Please contact admin for further details."
+msgstr ""
+
+#: inc/claim-metaboxes.php:314
+msgid "Your claim has been approved"
+msgstr ""
+
+#: inc/claim-metaboxes.php:315
+msgid ""
+"Your Claim on listing <a href=\"%listing_url\">%listing_title</a> has been "
+"approved."
+msgstr ""
+
+#: inc/claim-metaboxes.php:317 inc/claim-metaboxes.php:325
+msgid "Listing Claim notice"
+msgstr ""
+
+#: inc/claim-metaboxes.php:318
+msgid ""
+"Claim against your listing <a href=\"%listing_url\">%listing_title</a> has "
+"been approved. Please contact admin for further details."
+msgstr ""
+
+#: inc/claim-metaboxes.php:322
+msgid "Your claim has been rejected"
+msgstr ""
+
+#: inc/claim-metaboxes.php:323
+msgid ""
+"Your Claim on listing <a href=\"%listing_url\">%listing_title</a> has been "
+"rejected. Please contact admin for further details."
+msgstr ""
+
+#: inc/claim-metaboxes.php:326
+msgid ""
+"Claim against your listing <a href=\"%listing_url\">%listing_title</a> has "
+"been rejected."
+msgstr ""
+
+#: inc/comment-metaboxes.php:33
+msgid "Comment Attachment deleted."
+msgstr ""
+
+#: inc/comment-metaboxes.php:59
+msgid "Listing Comment Attachments"
+msgstr ""
+
+#: inc/comment-metaboxes.php:60
+msgid "Listing Comment Attachments Allowed File Types"
+msgstr ""
+
+#: inc/comment-metaboxes.php:70 inc/comment-metaboxes.php:82
+#, php-format
+msgid ""
+"Your server currently allows Maximum Execution Time of <strong>%s (s).</"
+"strong>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:90
+msgid " Listing Comments Attachments"
+msgstr ""
+
+#: inc/comment-metaboxes.php:96
+msgid "Maxium number of attachments to upload"
+msgstr ""
+
+#: inc/comment-metaboxes.php:97
+msgid "Maxium number of Attachments to upload"
+msgstr ""
+
+#: inc/comment-metaboxes.php:103
+msgid "Maxium number of Attachments in comments view"
+msgstr ""
+
+#: inc/comment-metaboxes.php:104
+msgid "Maxium number of Attachments in comments view, not in gallery"
+msgstr ""
+
+#: inc/comment-metaboxes.php:110
+msgid "Maxium file size <small>(in megabytes)</small>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:111
+#, php-format
+msgid ""
+"Your server currently allows us to use maximum of <strong>%s MB(s).</strong>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:117
+msgid "Text before attachment in a commment admin view"
+msgstr ""
+
+#: inc/comment-metaboxes.php:119
+msgid "Attachments"
+msgstr ""
+
+#: inc/comment-metaboxes.php:125
+msgid "Delete attachment upon comment deletition?<br />"
+msgstr ""
+
+#: inc/comment-metaboxes.php:289
+msgid "Add images to your review"
+msgstr ""
+
+#: inc/comment-metaboxes.php:290
+msgid "Allowed file types"
+msgstr ""
+
+#: inc/comment-metaboxes.php:290
+msgid "max total size of files"
+msgstr ""
+
+#: inc/comment-metaboxes.php:290
+msgid "max number of files:"
+msgstr ""
+
+#: inc/comment-metaboxes.php:302
+#, php-format
+msgid ""
+"<strong>ERROR:</strong> Max number of File(s) to upload is %1$s!<p><a href="
+"\"javascript:history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:336
+#, php-format
+msgid ""
+"<strong>ERROR:</strong> File(s) you upload must be valid file type <strong>"
+"(%1$s)</strong>!<p><a href=\"javascript:history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:341
+#, php-format
+msgid ""
+"<strong>ERROR:</strong> Total size of File(s) to upload must be less than  "
+"%2$sMB!<p><a href=\"javascript:history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:345
+msgid ""
+"<strong>ERROR:</strong> Attachment is a required field!<p><a href="
+"\"javascript:history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:347
+msgid ""
+"<strong>ERROR:</strong> Attachment exceeds the upload_max_filesize directive "
+"in php.ini.<p><a href=\"javascript:history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:349
+msgid ""
+"<strong>ERROR:</strong> Attachment exceeds the MAX_FILE_SIZE directive that "
+"was specified in the HTML form.<p><a href=\"javascript:history.back()\">« "
+"Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:351
+msgid ""
+"<strong>ERROR:</strong> Attachment was only partially uploaded. Please try "
+"again later.<p><a href=\"javascript:history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:353
+msgid ""
+"<strong>ERROR:</strong> Missing a temporary folder.<p><a href=\"javascript:"
+"history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:355
+msgid ""
+"<strong>ERROR:</strong> Failed to write file to disk.<p><a href=\"javascript:"
+"history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:357
+msgid ""
+"<strong>ERROR:</strong> A PHP extension stopped the file upload.<p><a href="
+"\"javascript:history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:365
+#, php-format
+msgid ""
+"<strong>ERROR:</strong> File(s) you upload must be valid file size under "
+"%2$sMB!<p><a href=\"javascript:history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:378
+msgid "Attachment:"
+msgstr ""
+
+#: inc/comment-metaboxes.php:429
+#, php-format
+msgid ""
+"<strong>ERROR:</strong> Max Execution Time Limit is %2$ss!<p><a href="
+"\"javascript:history.back()\">« Back</a></p>"
+msgstr ""
+
+#: inc/comment-metaboxes.php:585
+msgid "Delete Attachment"
+msgstr ""
+
+#: inc/comment-metaboxes.php:596
+msgid "Settings > Discussion > Comment Attachment"
+msgstr ""
+
+#: inc/comment-metaboxes.php:596
+msgid "Settings"
+msgstr ""
+
+#: inc/comment-metaboxes.php:607
+msgid ""
+"I'm sorry, but we can't have attachment bigger than server allows us to. If "
+"you wish to change this and you don't know how, <a href=\"https://www.google."
+"com/search?q=how+to+change+php.ini+upload_max_filesize\" target=\"_blank"
+"\">try this.</a>"
+msgstr ""
+
+#: inc/include_claim.php:8
+msgid "Claims"
+msgstr ""
+
+#: inc/include_claim.php:9 inc/my-account/includes/form-login.php:129
+#: inc/my-account/includes/form-login.php:148
+msgid "Claim"
+msgstr ""
+
+#: inc/include_claim.php:10
+msgctxt "admin menu"
+msgid "Claims"
+msgstr ""
+
+#: inc/include_claim.php:11
+msgctxt "add new on admin bar"
+msgid "Claim"
+msgstr ""
+
+#: inc/include_claim.php:12
+msgctxt "review"
+msgid "Add New"
+msgstr ""
+
+#: inc/include_claim.php:13
+msgid "Add New Claim"
+msgstr ""
+
+#: inc/include_claim.php:14
+msgid "New Claim"
+msgstr ""
+
+#: inc/include_claim.php:15
+msgid "Edit Claim"
+msgstr ""
+
+#: inc/include_claim.php:16
+msgid "View Claim"
+msgstr ""
+
+#: inc/include_claim.php:17
+msgid "All Claims"
+msgstr ""
+
+#: inc/include_claim.php:18
+msgid "Search Claims"
+msgstr ""
+
+#: inc/include_claim.php:19
+msgid "Parent Claims:"
+msgstr ""
+
+#: inc/include_claim.php:20
+msgid "No reviews found."
+msgstr ""
+
+#: inc/include_claim.php:21
+msgid "No reviews found in Trash."
+msgstr ""
+
+#: inc/include_claim.php:48
+msgid "Author"
+msgstr ""
+
+#: inc/include_claim.php:50
+msgid "Status"
+msgstr ""
+
+#: inc/include_claim.php:65
+msgid "Unable to get claim status"
+msgstr ""
+
+#: inc/include_claim.php:74
+msgid "Unable to get listing"
+msgstr ""
+
+#: inc/include_claim.php:93
+msgid "Unable to get author"
+msgstr ""
+
+#: inc/include_claim.php:112
+msgid "Unable to get claimer"
+msgstr ""
+
+#: inc/include_favorites.php:57
+msgid "Added to favourite"
+msgstr ""
+
+#: inc/include_favorites.php:59 inc/include_html.php:161
+#: inc/include_html.php:745
+msgid "Add to favourite"
+msgstr ""
+
+#: inc/include_helpers.php:392
+msgid "min"
+msgstr ""
+
+#: inc/include_html.php:12
+msgid "Sorry! There are no listings matching your search."
+msgstr ""
+
+#: inc/include_html.php:13
+msgid "Try changing your search filters"
+msgstr ""
+
+#: inc/include_html.php:985
+msgid "Close details"
+msgstr ""
+
+#: inc/include_html.php:1068
+msgid "Opens  at"
+msgstr ""
+
+#: inc/include_html.php:1146
+msgid "View details"
+msgstr ""
+
+#: inc/include_html.php:1156
+msgid "User reviews"
+msgstr ""
+
+#: inc/include_html.php:1179 inc/include_html.php:1397
+#: inc/include_html.php:1568 inc/include_html.php:1641
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: inc/include_html.php:1201 inc/include_html.php:1715
+msgid "Show all reviews"
+msgstr ""
+
+#: inc/include_html.php:1318
+msgid "Amenities"
+msgstr ""
+
+#: inc/include_html.php:1350
+msgid "Load more listings"
+msgstr ""
+
+#: inc/include_html.php:1397 inc/include_html.php:1569
+#: inc/include_html.php:1643
+msgid "out of 5"
+msgstr ""
+
+#: inc/include_html.php:1466
+msgid "Price"
+msgstr ""
+
+#: inc/include_html.php:1469
+msgid "From"
+msgstr ""
+
+#: inc/include_html.php:1472
+msgid "To"
+msgstr ""
+
+#: inc/include_html.php:1597
+msgid "Pingback:"
+msgstr ""
+
+#: inc/include_html.php:1597
+msgid "(Edit)"
+msgstr ""
+
+#: inc/include_html.php:1650
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/include_html.php:1664
+msgid "Keep reading"
+msgstr ""
+
+#: inc/include_html.php:1664
+msgid "Collapse review"
+msgstr ""
+
+#: inc/include_html.php:1673
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/include_html.php:1675
+msgid "Reply"
+msgstr ""
+
+#: inc/include_html.php:1708
+msgid "Average review score:"
+msgstr ""
+
+#: inc/include_html.php:1708
+msgid "for"
+msgstr ""
+
+#: inc/include_html.php:1709
+msgid "reviews"
+msgstr ""
+
+#: inc/include_popup.php:23
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: inc/include_popup.php:58 inc/include_popup.php:60 inc/include_popup.php:93
+#: inc/include_popup.php:95 inc/include_popup.php:109
+#: inc/include_popup.php:111
+msgid "Wrong username or password."
+msgstr ""
+
+#: inc/include_popup.php:65
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: inc/include_popup.php:121
+msgid "Registering successful "
+msgstr ""
+
+#: inc/include_popup.php:122
+msgid " Your user name is: "
+msgstr ""
+
+#: inc/include_popup.php:123
+msgid " Your password is: "
+msgstr ""
+
+#: inc/include_popup.php:125 inc/include_popup.php:182
+msgid " URL: "
+msgstr ""
+
+#: inc/include_popup.php:129
+msgid "Registering successful, redirecting..."
+msgstr ""
+
+#: inc/include_popup.php:149
+msgid "Enter an username or e-mail address."
+msgstr ""
+
+#: inc/include_popup.php:155
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: inc/include_popup.php:161
+msgid "There is no user registered with that username."
+msgstr ""
+
+#: inc/include_popup.php:164
+msgid "Invalid username or e-mail address."
+msgstr ""
+
+#: inc/include_popup.php:179
+msgid "Your new password "
+msgstr ""
+
+#: inc/include_popup.php:180
+msgid "Your new password is: "
+msgstr ""
+
+#: inc/include_popup.php:187
+msgid "Check your email address for you new password."
+msgstr ""
+
+#: inc/include_popup.php:189
+msgid "System is unable to send you mail containg your new password."
+msgstr ""
+
+#: inc/include_popup.php:191
+msgid "Oops! Something went wrong while updateing your account."
+msgstr ""
+
+#: inc/include_popup.php:213
+msgid "Enter claim title and details."
+msgstr ""
+
+#: inc/include_popup.php:229
+msgid ""
+"Oops! Something went wrong while your claim has been processed. Try again."
+msgstr ""
+
+#: inc/include_popup.php:231
+msgid "Claiming successful. Your claim for this listing is pending."
+msgstr ""
+
+#: inc/listing-category-metaboxes.php:30 inc/listing-category-metaboxes.php:73
+msgid "Normal Image"
+msgstr ""
+
+#: inc/listing-category-metaboxes.php:34 inc/listing-category-metaboxes.php:47
+#: inc/listing-category-metaboxes.php:84
+#: inc/listing-category-metaboxes.php:104
+msgid "Add Image"
+msgstr ""
+
+#: inc/listing-category-metaboxes.php:35 inc/listing-category-metaboxes.php:48
+#: inc/listing-category-metaboxes.php:85
+#: inc/listing-category-metaboxes.php:105
+msgid "Remove Image"
+msgstr ""
+
+#: inc/listing-category-metaboxes.php:37 inc/listing-category-metaboxes.php:87
+msgid ""
+"Set a custom map pin that will be used on Listing Search for this Category "
+"only."
+msgstr ""
+
+#: inc/listing-category-metaboxes.php:43 inc/listing-category-metaboxes.php:93
+msgid "Selected Image"
+msgstr ""
+
+#: inc/listing-category-metaboxes.php:49
+#: inc/listing-category-metaboxes.php:107
+msgid ""
+"Set a custom image for a map pin that will be used for a Listing when it's "
+"clicked on a map, and on Single Listing Page, for this Category only."
+msgstr ""
+
+#: inc/listing-category-metaboxes.php:138
+msgid "Insert"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:24
+#: inc/my-account/includes/form-login.php:39
+#: inc/my-account/includes/form-login.php:118
+msgid "Login"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:29
+#: inc/my-account/includes/form-login.php:107
+msgid "Username or Email Address"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:33
+#: inc/my-account/includes/form-login.php:78
+msgid "Password"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:42
+msgid "Remember me"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:44
+msgid "Lost your password?"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:58
+msgid "Don't have an account yet?"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:60
+msgid "Please Register."
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:69
+#: inc/my-account/includes/form-login.php:85
+msgid "Register"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:74
+msgid "Email Address"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:89
+msgid "Already have account?"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:91
+msgid "Please Login."
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:100
+msgid "Lost Password"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:104
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:113
+msgid "Reset password"
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:134
+msgid ""
+"Please enter claim title and details. Describe why you think that this is "
+"your listing and we will review and get back to you as soon as possible."
+msgstr ""
+
+#: inc/my-account/includes/form-login.php:137
+msgid "Claim Title"
+msgstr ""
+
+#: localization/localization.php:8
+msgid "This field is required"
+msgstr ""
+
+#: localization/localization.php:9
+msgid "Please fix this field."
+msgstr ""
+
+#: localization/localization.php:10
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: localization/localization.php:11
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: localization/localization.php:12
+msgid "Please enter a valid date."
+msgstr ""
+
+#: localization/localization.php:13
+msgid "Please enter a valid date (ISO)."
+msgstr ""
+
+#: localization/localization.php:14
+msgid "Please enter a valid number."
+msgstr ""
+
+#: localization/localization.php:15
+msgid "Please enter only digits."
+msgstr ""
+
+#: localization/localization.php:16
+msgid "Please enter the same value again."
+msgstr ""
+
+#: localization/localization.php:17
+msgid "Please enter no more than {0} characters."
+msgstr ""
+
+#: localization/localization.php:18
+msgid "Please enter at least {0} characters."
+msgstr ""
+
+#: localization/localization.php:19
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+#: localization/localization.php:20
+msgid "Please enter a value between {0} and {1}."
+msgstr ""
+
+#: localization/localization.php:21
+msgid "\"Please enter a value less than or equal to {0}."
+msgstr ""
+
+#: localization/localization.php:22
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+#: localization/localization.php:23
+msgid "Please enter a multiple of {0}."
+msgstr ""
+
+#: widgets/bb_listing_marker_options_widget.php:19
+msgid "Add as favourite"
+msgstr ""
+
+#: widgets/bt_user_widget.php:8
+msgid "Login / Register"
+msgstr ""
+
+#: widgets/bt_user_widget.php:17
+msgid "My Account"
+msgstr ""
+
+#: widgets/bt_user_widget.php:26
+msgid "Create a listing"
+msgstr ""
