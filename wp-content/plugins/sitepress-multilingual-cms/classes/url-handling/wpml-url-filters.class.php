@@ -1,6 +1,7 @@
 <?php
 
 use \WPML\FP\Str;
+use \WPML\SuperGlobals\Server;
 
 /**
  * Class WPML_URL_Filters
@@ -410,10 +411,9 @@ class WPML_URL_Filters {
 	}
 
 	public function get_request_language() {
-		$server_name = isset( $_SERVER['SERVER_NAME'] ) ? $_SERVER['SERVER_NAME'] : "";
 		$request_uri = isset( $_SERVER['REQUEST_URI'] ) ? $_SERVER['REQUEST_URI'] : "";
 		$server_name = strpos( $request_uri, '/' ) === 0
-			? untrailingslashit( $server_name ) : trailingslashit( $server_name );
+			? untrailingslashit(  Server::getServerName() ) : trailingslashit(  Server::getServerName() );
 		$url_snippet = $server_name . $request_uri;
 
 		return $this->url_converter->get_language_from_url( $url_snippet );

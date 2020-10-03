@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-15 19:42:48+0000\n"
+"PO-Revision-Date: 2020-09-21 06:59:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4932,10 +4932,6 @@ msgstr "Identifiant reposant sur une chaîne du terme."
 msgid "Limit result set to products with a certain average rating."
 msgstr "Limiter les résultats aux produits ayant une certaine note moyenne."
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/Products.php:345
-msgid "List of attribute slug(s). If a term ID is provided, this will be ignored."
-msgstr "Liste du ou des identifiants d'attributs. Si l'ID d'un terme est fourni, il sera ignoré."
-
 #: packages/woocommerce-blocks/src/StoreApi/Routes/Products.php:337
 msgid "List of attribute term IDs."
 msgstr "Liste des ID des termes des attributs."
@@ -5150,6 +5146,10 @@ msgstr "Nombre d’objets (articles par type) affecté au terme."
 msgid "The logical relationship between attributes when filtering across multiple at once."
 msgstr "Relation logique entre les attributs lors d’un filtrage unique de plusieurs sources."
 
+#: packages/woocommerce-blocks/src/StoreApi/Routes/Products.php:345
+msgid "List of attribute slug(s). If a term ID is provided, this will be ignored."
+msgstr "Liste du ou des identifiants d’attributs. Si l’ID d'un terme est fourni, il sera ignoré."
+
 #: packages/woocommerce-blocks/src/StoreApi/Routes/ProductCollectionData.php:158
 msgid "If requested, calculates attribute term counts for products in the collection."
 msgstr "Si demandé, calcule le nombre de termes d’attribut des produits figurant dans la collection."
@@ -5303,30 +5303,30 @@ msgstr "Les frais de livraison sont calculés lors du paiement"
 msgid "%s is a variable product parent and cannot be added."
 msgstr "%s est une variante de produit parent. Vous ne pouvez pas l’ajouter."
 
-#. translators: %s: Requirements unmet.
-#: includes/wccom-site/class-wc-wccom-site-installer-requirements-check.php:37
-msgid "Server requirements not met, missing requirement(s): %s."
-msgstr "La configuration serveur requise n'est pas satisfaite, une ou plusieurs exigences ne sont pas remplies : %s."
-
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductSchema.php:166
-msgid "Amount of reviews that the product has."
-msgstr "Quantité d'avis dont dispose le produit."
-
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:59
 msgid "The date the review was created, in the site's timezone in human-readable format."
 msgstr "Date à laquelle l’avis a été créé, dans le fuseau horaire du site et dans un format lisible par l’utilisateur."
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:77
-msgid "Name of the product that the review belongs to."
-msgstr "Nom du produit auquel l'avis se réfère."
-
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:83
-msgid "Permalink of the product that the review belongs to."
-msgstr "Permalien du produit auquel l'avis se réfère."
-
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:89
 msgid "Image of the product that the review belongs to."
 msgstr "Image du produit auquel l’avis se réfère."
+
+#. translators: %s: Requirements unmet.
+#: includes/wccom-site/class-wc-wccom-site-installer-requirements-check.php:37
+msgid "Server requirements not met, missing requirement(s): %s."
+msgstr "La configuration serveur requise n’est pas satisfaite, une ou plusieurs exigences ne sont pas remplies : %s."
+
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductSchema.php:166
+msgid "Amount of reviews that the product has."
+msgstr "Quantité d’avis dont dispose le produit."
+
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:77
+msgid "Name of the product that the review belongs to."
+msgstr "Nom du produit auquel l’avis se réfère."
+
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:83
+msgid "Permalink of the product that the review belongs to."
+msgstr "Permalien du produit auquel l’avis se réfère."
 
 #: i18n/states.php:1582
 msgid "Midway Atoll"
@@ -5335,10 +5335,6 @@ msgstr "Midway Atoll"
 #: i18n/states.php:418 i18n/states.php:1657
 msgid "Western"
 msgstr "Ouest"
-
-#: includes/admin/class-wc-admin-setup-wizard.php:695
-msgid "Enable usage tracking and help improve WooCommerce"
-msgstr "Activez le suivi de l'utilisation et contribuez à améliorer WooCommerce"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:2288
 #: includes/admin/class-wc-admin-setup-wizard.php:2299
@@ -5385,10 +5381,6 @@ msgstr "Lusaka"
 msgid "Muchinga"
 msgstr "Muchinga"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:673
-msgid "Help improve WooCommerce with usage tracking"
-msgstr "Contribuez à l'amélioration de WooCommerce grâce au suivi de l'utilisation."
-
 #. translators: %s: shipping zone name.
 #: includes/class-wc-shipping.php:165
 msgid "Customer matched zone \"%s\""
@@ -5401,6 +5393,14 @@ msgstr "Parcourir les produits"
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:120
 msgid "The coupon will expire at 00:00:00 of this date."
 msgstr "Le code promo expirera à 00:00:00 de cette date."
+
+#: includes/admin/class-wc-admin-setup-wizard.php:695
+msgid "Enable usage tracking and help improve WooCommerce"
+msgstr "Activez le suivi de l’utilisation et contribuez à améliorer WooCommerce"
+
+#: includes/admin/class-wc-admin-setup-wizard.php:673
+msgid "Help improve WooCommerce with usage tracking"
+msgstr "Contribuez à l’amélioration de WooCommerce grâce au suivi de l’utilisation."
 
 #: packages/woocommerce-blocks/src/BlockTypes/ProductCategories.php:222
 msgid "Go to category"
@@ -6390,10 +6390,6 @@ msgstr "TVA non valide"
 msgid "Completed processing action %1$s with hook: %2$s"
 msgstr "Action de traitement %1$s terminée avec le crochet Web : %2$s"
 
-#: includes/admin/settings/class-wc-settings-advanced.php:365
-msgid "Leave this box unchecked if you do not want to see suggested extensions."
-msgstr "Ne cochez pas cette case si vous ne voulez pas voir de suggestions d'extension."
-
 #: includes/admin/settings/class-wc-settings-advanced.php:364
 msgid "Display suggestions within WooCommerce"
 msgstr "Afficher des suggestions dans WooCommerce"
@@ -6492,18 +6488,18 @@ msgstr "Adresse du site (URL) "
 msgid "Enter a coupon code to apply. Discounts are applied to line totals, before taxes."
 msgstr "Saisir un code promo à appliquer. Les remises sont appliquées aux lignes de totaux, avant les TVA."
 
+#: includes/admin/settings/class-wc-settings-advanced.php:365
+msgid "Leave this box unchecked if you do not want to see suggested extensions."
+msgstr "Ne cochez pas cette case si vous ne voulez pas voir de suggestions d’extension."
+
 #: includes/admin/settings/class-wc-settings-accounts.php:126
 msgid "Adds an option to the orders screen for removing personal data in bulk. Note that removing personal data cannot be undone."
-msgstr "Ajoute une option à l'écran des commandes pour supprimer des données personnelles en bloc. Notez que la suppression de données personnelles est définitive."
+msgstr "Ajoute une option à l’écran des commandes pour supprimer des données personnelles en bloc. Notez que la suppression de données personnelles est définitive."
 
 #: includes/admin/marketplace-suggestions/templates/html-product-data-extensions.php:27
 #: includes/admin/class-wc-admin-assets.php:475
 msgid "Manage suggestions"
 msgstr "Gérer les suggestions"
-
-#: includes/admin/settings/class-wc-settings-advanced.php:330
-msgid "WooCommerce.com Usage Tracking Documentation"
-msgstr "Document de suivi de l'utilisation de WooCommerce.com"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:44
 msgid "WooCommerce.com"
@@ -6628,6 +6624,10 @@ msgstr "Limiter les résultats aux commandes qui ont les états spécifiques."
 #: includes/wc-core-functions.php:334
 msgid "action_args should not be overwritten when calling wc_get_template."
 msgstr "Ne pas écraser action_args lors de l’appel wc_get_template."
+
+#: includes/admin/settings/class-wc-settings-advanced.php:330
+msgid "WooCommerce.com Usage Tracking Documentation"
+msgstr "Document de suivi de l’utilisation de WooCommerce.com"
 
 #: templates/myaccount/form-login.php:99
 msgid "A password will be sent to your email address."
@@ -6797,11 +6797,6 @@ msgstr "TVA automatisées et remise sur les étiquettes de livraison"
 msgid "[Order #%1$s] (%2$s)"
 msgstr "[Commande n°%1$s] (%2$s)"
 
-#: templates/emails/customer-on-hold-order.php:27
-#: templates/emails/plain/customer-on-hold-order.php:26
-msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:"
-msgstr "Merci pour votre commande. Elle est en attente jusqu'à ce que nous confirmions que le paiement ait bien été reçu. En attendant, voici un rappel de votre commande :"
-
 #: includes/admin/notes/class-wc-notes-run-db-update.php:223
 msgid "Thanks!"
 msgstr "Merci !"
@@ -6828,14 +6823,19 @@ msgstr "Au plaisir de vous revoir prochainement sur notre boutique."
 msgid "Someone has requested a new password for the following account on %s:"
 msgstr "Un utilisateur a demandé un nouveau mot de passe pour le compte suivant sur %s :"
 
-#: templates/emails/plain/customer-reset-password.php:30
-#: templates/emails/customer-reset-password.php:32
-msgid "If you didn't make this request, just ignore this email. If you'd like to proceed:"
-msgstr "Si vous n'êtes pas l'auteur de cette demande, ignorez simplement cet e-mail. Pour continuer :"
-
 #: includes/emails/class-wc-email-customer-on-hold-order.php:142
 msgid "We look forward to fulfilling your order soon."
 msgstr "Nous comptons exécuter votre commande sous peu."
+
+#: templates/emails/customer-on-hold-order.php:27
+#: templates/emails/plain/customer-on-hold-order.php:26
+msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:"
+msgstr "Merci pour votre commande. Elle est en attente jusqu’à ce que nous confirmions que le paiement ait bien été reçu. En attendant, voici un rappel de votre commande :"
+
+#: templates/emails/plain/customer-reset-password.php:30
+#: templates/emails/customer-reset-password.php:32
+msgid "If you didn't make this request, just ignore this email. If you'd like to proceed:"
+msgstr "Si vous n’êtes pas l'auteur de cette demande, ignorez simplement cet e-mail. Pour continuer :"
 
 #: templates/emails/plain/customer-note.php:26
 #: templates/emails/customer-note.php:29
@@ -6924,11 +6924,6 @@ msgstr "Échoué"
 msgid "Pending"
 msgstr "En attente"
 
-#. translators: %s: Default class name
-#: includes/queue/class-wc-queue.php:76
-msgid "The class attached to the \"woocommerce_queue_class\" does not implement the WC_Queue_Interface interface. The default %s class will be used instead."
-msgstr "La classe liée à « woocommerce_queue_class » n'intègre pas l'interface WC_Queue_Interface. La classe %s par défaut sera utilisée à la place."
-
 #: includes/queue/class-wc-queue.php:60
 msgid "This function should not be called before plugins_loaded."
 msgstr "Cette fonction ne doit pas être appelée avant plugins_loaded."
@@ -6945,18 +6940,9 @@ msgstr "Aucune action détectée"
 msgid "Search Scheduled Actions"
 msgstr "Rechercher des actions planifiées"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
-msgid "View Action"
-msgstr "Voir l'action"
-
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
 msgid "New Scheduled Action"
 msgstr "Nouvelle action planifiée"
-
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
-msgid "Edit Scheduled Action"
-msgstr "Modifier l'action planifiée"
 
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
 msgid "Add New Scheduled Action"
@@ -6992,74 +6978,15 @@ msgctxt "post"
 msgid "Failed"
 msgstr "Échec"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:838
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:740
-msgid "Invalid action ID. No status found."
-msgstr "ID d'action non valide. Aucun état trouvé."
-
-#. translators: %s: action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:716
-msgid "Unable to mark failure on action %s. Database error."
-msgstr "Impossible de marquer l'échec de l'action %s. Erreur de la base de données."
-
-#. translators: %s: action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:704
-msgid "Unable to unlock claim on action %s. Database error."
-msgstr "Impossible de déverrouiller la demande d'action %s. Erreur de la base de données."
-
 #. translators: %s: claim ID
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:689
 msgid "Unable to unlock claim %s. Database error."
 msgstr "Impossible de déverrouiller la demande %s. Erreur de la base de données."
 
-#. translators: %s: group name
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:661
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:627
-msgid "The group \"%s\" does not exist."
-msgstr "Le groupe « %s » n'existe pas."
-
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:675
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:607
 msgid "Unable to claim actions. Database error."
 msgstr "Impossible de demander des actions. Erreur de la base de données."
-
-#. translators: %s: action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:548
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:580
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:777
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:819
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:457
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:468
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:495
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:773
-msgid "Unidentified action %s"
-msgstr "Action %s non identifiée"
-
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:62
-msgid "Unable to save action."
-msgstr "Impossible d'enregistrer l'action."
-
-#. translators: %s: error message
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:75
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:25
-#: packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
-msgid "Error saving action: %s"
-msgstr "Erreur lors de l'enregistrement de l'action : %s"
-
-#: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
-msgid "action reset"
-msgstr "réinitialisation de l'action"
-
-#. translators: %s: amount of time
-#: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
-msgid "action timed out after %s seconds"
-msgstr "délai de l'action dépassé après %s secondes"
-
-#. translators: %s: exception message
-#: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
-msgid "action failed: %s"
-msgstr "échec de l'action : %s"
 
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
 msgid "action complete"
@@ -7085,11 +7012,6 @@ msgid_plural "%d scheduled tasks completed."
 msgstr[0] "%d tâche planifiée terminée."
 msgstr[1] "%d tâches planifiées terminées."
 
-#. translators: %s refers to the exception error message
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:136
-msgid "There was an error running the action scheduler: %s"
-msgstr "Une erreur est survenue lors de l'exécution du planificateur d'actions : %s"
-
 #. translators: %d refers to the total number of batches executed
 #: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:117
 msgid "%d batch executed."
@@ -7104,38 +7026,30 @@ msgid_plural "Found %d scheduled tasks"
 msgstr[0] "%d tâche planifiée détectée"
 msgstr[1] "%d tâches planifiées détectées"
 
+#. translators: %s: action ID
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:548
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:580
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:777
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:819
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:457
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:468
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:495
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:773
+msgid "Unidentified action %s"
+msgstr "Action %s non identifiée"
+
 #: packages/action-scheduler/classes/ActionScheduler_DataController.php:137
 msgid "Attempting to reduce used memory..."
 msgstr "Tentative de réduction de la mémoire utilisée…"
-
-#. translators: 1: action ID 2: exception message
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
-msgid "Error processing action %1$s: %2$s"
-msgstr "Erreur lors de l'enregistrement de l'action %1$s : %2$s"
-
-#. translators: %s refers to the action ID
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
-msgid "Started processing action %s"
-msgstr "Traitement de l'action %s commencé"
 
 #: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
 msgid "The claim has been lost. Aborting current batch."
 msgstr "La demande a été perdue. Abandon du lot actuel."
 
-#. translators: %d: amount of actions
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
-msgid "Running %d action"
-msgid_plural "Running %d actions"
-msgstr[0] "%d action en cours d'exécution"
-msgstr[1] "%d actions en cours d'exécution"
-
 #: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
 msgid "There are too many concurrent batches."
 msgstr "Nombre de lots concurrents trop élevé."
-
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
-msgid "There are too many concurrent batches, but the run is forced to continue."
-msgstr "Nombre de lots concurrents trop élevé, mais l'exécution doit continuer."
 
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:305
 msgid "Canceled"
@@ -7144,10 +7058,6 @@ msgstr "Annulé"
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:303
 msgid "In-progress"
 msgstr "En cours"
-
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:283
-msgid "Invalid schedule. Cannot save action."
-msgstr "Planification non valide. Impossible d'enregistrer l'action."
 
 #: packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:192
 msgid "Every minute"
@@ -7166,11 +7076,6 @@ msgstr " (%s)"
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:458
 msgid " (%s ago)"
 msgstr " (Il y a %s)"
-
-#. translators: %s: action HTML
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:406
-msgid "Successfully processed change for action: %s"
-msgstr "Modification de l'action traitée avec succès : %s"
 
 #. translators: %s: action HTML
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:402
@@ -7244,14 +7149,6 @@ msgid_plural "%s years"
 msgstr[0] "%s an"
 msgstr[1] "%s ans"
 
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:134
-msgid "Cancel the action now to avoid it being run in future"
-msgstr "Annuler l'action maintenant pour éviter son exécution ultérieure"
-
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:130
-msgid "Process the action now as if it were run as part of a queue"
-msgstr "Traiter l'action maintenant comme si elle était exécutée dans le cadre d'une file d'attente"
-
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:129
 msgid "Run"
 msgstr "Exécuter"
@@ -7323,28 +7220,13 @@ msgstr "[{site_title}] : La commande n°{order_number} a échoué"
 msgid "No shipping options were found for %s."
 msgstr "Options de livraison introuvables pour %s."
 
-#. Translators: $s shipping destination.
-#: templates/cart/cart-shipping.php:52
-msgid "Change address"
-msgstr "Modifier l'adresse"
-
 #: includes/wc-stock-functions.php:295
 msgid "Stock levels increased:"
 msgstr "Hausse des niveaux de stock :"
 
-#. translators: %s item name.
-#: includes/wc-stock-functions.php:284
-msgid "Unable to restore stock for item %s."
-msgstr "Impossible de restaurer le stock de l'élément %s."
-
 #: includes/wc-stock-functions.php:241
 msgid "Stock levels reduced:"
 msgstr "Réduction des niveaux de stock :"
-
-#. translators: %s item name.
-#: includes/wc-stock-functions.php:186
-msgid "Unable to reduce stock for item %s."
-msgstr "Impossible de réduire le stock de l'élément %s."
 
 #. Translators: $s shipping destination.
 #: templates/cart/cart-shipping.php:71
@@ -7371,27 +7253,145 @@ msgstr "Tri du plus récent au plus ancien"
 msgid "Action Group"
 msgstr "Groupe d’action"
 
-#. translators: %s: amount of claims
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:357
-msgid "Maximum simultaneous queues already in progress (%s queue). No additional queues will begin processing until the current queues are complete."
-msgid_plural "Maximum simultaneous queues already in progress (%s queues). No additional queues will begin processing until the current queues are complete."
-msgstr[0] "Nombre maximal de files d'attente simultanées déjà en cours de traitement (%s file d'attente). Aucune file d'attente supplémentaire ne sera traitée tant que les files d'attente en cours ne seront pas terminées."
-msgstr[1] "Nombre maximal de files d'attente simultanées déjà en cours de traitement (%s files d'attente). Aucune file d'attente supplémentaire ne sera traitée tant que les files d'attente en cours ne seront pas terminées."
-
 #. translators: 1: action ID 2: arguments
 #: packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:40
 msgid "Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. $args = %2$s"
 msgstr "L’action [%1$s] comporte des arguments non valides. Elle ne peut pas être un JSON décodé dans un tableau. $args = %2$s"
 
-#. translators: 1: action HTML 2: action ID 3: error message
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:412
-msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
-msgstr "Impossible de traiter les modifications de l'action suivante : « %1$s » (ID : %2$d). Erreur :  %3$s"
-
 #. translators: 1: error message 2: filename 3: line
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:118
 msgid "unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s"
 msgstr "arrêt inattendu : erreur fatale inhérente au PHP (%1$s) dans le fichier %2$s à la ligne %3$s"
+
+#. translators: %s: Default class name
+#: includes/queue/class-wc-queue.php:76
+msgid "The class attached to the \"woocommerce_queue_class\" does not implement the WC_Queue_Interface interface. The default %s class will be used instead."
+msgstr "La classe liée à « woocommerce_queue_class » n’intègre pas l’interface WC_Queue_Interface. La classe %s par défaut sera utilisée à la place."
+
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr "Voir l’action"
+
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr "Modifier l’action planifiée"
+
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:838
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:740
+msgid "Invalid action ID. No status found."
+msgstr "ID d’action non valide. Aucun état trouvé."
+
+#. translators: %s: action ID
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:716
+msgid "Unable to mark failure on action %s. Database error."
+msgstr "Impossible de marquer l’échec de l’action %s. Erreur de la base de données."
+
+#. translators: %s: action ID
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:704
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr "Impossible de déverrouiller la demande d’action %s. Erreur de la base de données."
+
+#. translators: %s: group name
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:661
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:627
+msgid "The group \"%s\" does not exist."
+msgstr "Le groupe « %s » n’existe pas."
+
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:62
+msgid "Unable to save action."
+msgstr "Impossible d’enregistrer l’action."
+
+#. translators: %s: error message
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:75
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:25
+#: packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+msgid "Error saving action: %s"
+msgstr "Erreur lors de l’enregistrement de l’action : %s"
+
+#: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
+msgid "action reset"
+msgstr "réinitialisation de l’action"
+
+#. translators: %s: amount of time
+#: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
+msgid "action timed out after %s seconds"
+msgstr "délai de l’action dépassé après %s secondes"
+
+#. translators: %s: exception message
+#: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
+msgid "action failed: %s"
+msgstr "échec de l’action : %s"
+
+#. translators: %s refers to the exception error message
+#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:136
+msgid "There was an error running the action scheduler: %s"
+msgstr "Une erreur est survenue lors de l’exécution du planificateur d’actions : %s"
+
+#. translators: 1: action ID 2: exception message
+#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+msgid "Error processing action %1$s: %2$s"
+msgstr "Erreur lors de l’enregistrement de l’action %1$s : %2$s"
+
+#. translators: %s refers to the action ID
+#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+msgid "Started processing action %s"
+msgstr "Traitement de l’action %s commencé"
+
+#. translators: %d: amount of actions
+#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
+msgid "Running %d action"
+msgid_plural "Running %d actions"
+msgstr[0] "%d action en cours d’exécution"
+msgstr[1] "%d actions en cours d’exécution"
+
+#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+msgid "There are too many concurrent batches, but the run is forced to continue."
+msgstr "Nombre de lots concurrents trop élevé, mais l’exécution doit continuer."
+
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:283
+msgid "Invalid schedule. Cannot save action."
+msgstr "Planification non valide. Impossible d’enregistrer l’action."
+
+#. translators: %s: action HTML
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:406
+msgid "Successfully processed change for action: %s"
+msgstr "Modification de l’action traitée avec succès : %s"
+
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr "Annuler l’action maintenant pour éviter son exécution ultérieure"
+
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:130
+msgid "Process the action now as if it were run as part of a queue"
+msgstr "Traiter l’action maintenant comme si elle était exécutée dans le cadre d’une file d’attente"
+
+#. Translators: $s shipping destination.
+#: templates/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr "Modifier l’adresse"
+
+#. translators: %s item name.
+#: includes/wc-stock-functions.php:284
+msgid "Unable to restore stock for item %s."
+msgstr "Impossible de restaurer le stock de l’élément %s."
+
+#. translators: %s item name.
+#: includes/wc-stock-functions.php:186
+msgid "Unable to reduce stock for item %s."
+msgstr "Impossible de réduire le stock de l’élément %s."
+
+#. translators: 1: action HTML 2: action ID 3: error message
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:412
+msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
+msgstr "Impossible de traiter les modifications de l’action suivante : « %1$s » (ID : %2$d). Erreur :  %3$s"
+
+#. translators: %s: amount of claims
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:357
+msgid "Maximum simultaneous queues already in progress (%s queue). No additional queues will begin processing until the current queues are complete."
+msgid_plural "Maximum simultaneous queues already in progress (%s queues). No additional queues will begin processing until the current queues are complete."
+msgstr[0] "Nombre maximal de files d’attente simultanées déjà en cours de traitement (%s file d’attente). Aucune file d’attente supplémentaire ne sera traitée tant que les files d’attente en cours ne seront pas terminées."
+msgstr[1] "Nombre maximal de files d’attente simultanées déjà en cours de traitement (%s files d’attente). Aucune file d’attente supplémentaire ne sera traitée tant que les files d’attente en cours ne seront pas terminées."
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-reports-controller.php:67
 msgid "Attributes totals."
@@ -7425,18 +7425,6 @@ msgstr "Totaux des clients."
 msgid "Reviews totals."
 msgstr "Totaux des avis."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1409
-msgid "Shipping instance ID."
-msgstr "ID de l'instance de livraison."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-report-reviews-totals-controller.php:122
-msgid "Amount of reviews."
-msgstr "Nombre d'avis."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-report-reviews-totals-controller.php:116
-msgid "Review type name."
-msgstr "Nom du type d'avis."
-
 #: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:191
 #: includes/rest-api/Controllers/Version3/class-wc-rest-report-products-totals-controller.php:123
 msgid "Amount of products."
@@ -7449,10 +7437,6 @@ msgstr "Nom du type de produit."
 #: includes/rest-api/Controllers/Version3/class-wc-rest-report-orders-totals-controller.php:117
 msgid "Amount of orders."
 msgstr "Nombre de commandes."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-report-orders-totals-controller.php:111
-msgid "Order status name."
-msgstr "Nom de l'état de la commande."
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-report-customers-totals-controller.php:144
 msgid "Amount of customers."
@@ -7507,23 +7491,10 @@ msgstr "Liste des continents, pays et États acceptés."
 msgid "The unit weights are defined in for this country."
 msgstr "Les unités de poids sont définies pour ce pays."
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:339
-msgid "Thousands separator for displayed prices in this country."
-msgstr "Séparateur des milliers pour l'affichage des prix dans ce pays."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:330
-#: includes/rest-api/Controllers/Version3/class-wc-rest-data-countries-controller.php:228
-msgid "Full name of state."
-msgstr "Nom complet de l'État."
-
 #: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:314
 #: includes/rest-api/Controllers/Version3/class-wc-rest-data-countries-controller.php:212
 msgid "List of states in this country."
 msgstr "Liste des États dans ce pays."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:308
-msgid "Number of decimal points shown in displayed prices for this country."
-msgstr "Nombre de décimales indiqué dans l'affichage des prix pour ce pays."
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:302
 #: includes/rest-api/Controllers/Version3/class-wc-rest-data-countries-controller.php:206
@@ -7533,10 +7504,6 @@ msgstr "Nom complet du pays."
 #: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:296
 msgid "The unit lengths are defined in for this country."
 msgstr "Les unités de taille sont définies pour ce pays."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:290
-msgid "Decimal separator for displayed prices for this country."
-msgstr "Séparateur des décimales pour l'affichage des prix dans ce pays."
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:284
 msgid "Currency symbol position for this country."
@@ -7616,17 +7583,6 @@ msgstr "Téléchargements des clients WooCommerce"
 msgid "WooCommerce Customer Orders"
 msgstr "Commandes des clients WooCommerce"
 
-#. translators: %1$s: field name, %2$s finder.eircode.ie URL
-#: includes/class-wc-checkout.php:763
-msgid "%1$s is not valid. You can look up the correct Eircode <a target=\"_blank\" href=\"%2$s\">here</a>."
-msgstr "%1$s n'est pas valide. Vous trouverez le code Eircode approprié <a target=\"_blank\" href=\"%2$s\">ici</a>."
-
-#. translators: 1: product name 2: quantity in stock
-#: includes/shortcodes/class-wc-shortcode-checkout.php:165
-#: includes/class-wc-cart.php:781
-msgid "Sorry, we do not have enough \"%1$s\" in stock to fulfill your order (%2$s available). We apologize for any inconvenience caused."
-msgstr "Désolé, nous n'avons pas assez de « %1$s » en stock pour satisfaire votre commande (disponibilité :%2$s). Veuillez nous excuser pour les problèmes occasionnés."
-
 #: includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php:174
 msgid "An identifier for the group this setting belongs to."
 msgstr "Identifiant du groupe auquel ce paramètre appartient."
@@ -7634,10 +7590,6 @@ msgstr "Identifiant du groupe auquel ce paramètre appartient."
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:485
 msgid "Variation status."
 msgstr "État de la variation."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1043
-msgid "Invalid review ID."
-msgstr "ID d'avis non valide."
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1009
 msgid "Limit result set to reviews assigned a specific status."
@@ -7647,58 +7599,13 @@ msgstr "Limiter le jeu de résultats aux avis affectés à un état spécifique.
 msgid "Limit result set to reviews assigned to specific product IDs."
 msgstr "Limite le jeu de résultats aux avis assignés à des ID de produits spécifiques."
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:995
-msgid "Limit result set to that from a specific author email."
-msgstr "Limiter le jeu de résultats à une adresse e-mail d'auteur spécifique."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:655
-msgid "The object cannot be deleted."
-msgstr "Impossible de supprimer l'objet."
-
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:71
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:849
-msgid "Unique identifier for the product that the review belongs to."
-msgstr "ID unique du produit auquel l'avis se réfère."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:419
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:565
-msgid "Product review field exceeds maximum length allowed."
-msgstr "Le champ d'avis sur le produit dépasse la longueur maximale autorisée."
-
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:374
 msgid "Cannot create existing product review."
 msgstr "Impossible de créer un avis sur un produit existant."
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:530
-msgid "Sorry, you are not allowed to change the comment type."
-msgstr "Désolé, vous n'avez pas l'autorisation de modifier le type de commentaire."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:571
-msgid "Updating review failed."
-msgstr "Échec de la mise à jour de l'avis."
-
-#. translators: %s: force=true
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:642
-msgid "The object does not support trashing. Set '%s' to delete."
-msgstr "L'objet ne peut être mis à la corbeille. Configurer la suppression de « %s »."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:549
-msgid "Updating review status failed."
-msgstr "Échec de la mise à jour de l'état de l'avis."
-
 #: includes/admin/views/html-notice-template-check.php:22
 msgid "If you copied over a template file to change something, then you will need to copy the new version of the template and apply your changes again."
 msgstr "Si vous avez copié un fichier modèle pour le modifier, vous devrez copier la nouvelle version du modèle et réappliquer vos modifications."
-
-#. translators: %d: avatar image size in pixels
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:131
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:900
-msgid "Avatar URL with image size of %d pixels."
-msgstr "URL d'avatar avec une taille d'image de %d pixels."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:980
-msgid "Limit result set to reviews assigned to specific user IDs."
-msgstr "Limite le jeu de résultats aux avis assignés à des ID d'utilisateurs spécifiques."
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:55
 msgid "Unique identifier for the product."
@@ -7708,18 +7615,9 @@ msgstr "ID unique pour le produit."
 msgid "Supported features for this payment gateway."
 msgstr "Fonctionnalités prises en charge pour cette passerelle de paiement."
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:138
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:907
-msgid "Avatar URLs for the object reviewer."
-msgstr "URL d'avatar pour l'objet reviewer."
-
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:934
 msgid "Limit response to reviews published before a given ISO8601 compliant date."
 msgstr "Limitez les réponses aux avis publiés avant une certaine date conforme ISO8601."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-order-notes-controller.php:157
-msgid "If true, this note will be attributed to the current user. If false, the note will be attributed to the system."
-msgstr "Si le résultat est « true », cette note sera attribuée à l'utilisateur actuel. Si le résultat est « false », la note sera attribuée au système."
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-order-notes-controller.php:128
 msgid "Order note author."
@@ -7728,18 +7626,6 @@ msgstr "Auteur de la note de la commande."
 #: includes/admin/views/html-notice-template-check.php:27
 msgid "View affected templates"
 msgstr "Voir les modèles concernés"
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:987
-msgid "Ensure result set excludes reviews assigned to specific user IDs."
-msgstr "Vérifiez que le jeu de résultats exclut les avis assignés à des ID d'utilisateurs spécifiques."
-
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:646
-msgid "The object has already been trashed."
-msgstr "L'objet a déjà été placé dans la corbeille."
-
-#: includes/admin/views/html-notice-template-check.php:21
-msgid "Update your theme to the latest version. If no update is available contact your theme author asking about compatibility with the current WooCommerce version."
-msgstr "Mettez à jour votre thème vers la dernière version. Si aucune mise à jour n'est disponible, contactez l'auteur du thème pour vous renseigner sur la compatibilité de ce dernier avec la version actuelle de WooCommerce."
 
 #: includes/class-wc-privacy.php:42 includes/class-wc-privacy.php:48
 msgid "WooCommerce Customer Data"
@@ -7786,6 +7672,120 @@ msgstr "Limitez les réponses aux avis publiés après une certaine date conform
 msgid "Coupon type name."
 msgstr "Nom du type de code promo."
 
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1409
+msgid "Shipping instance ID."
+msgstr "ID de l’instance de livraison."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-report-reviews-totals-controller.php:122
+msgid "Amount of reviews."
+msgstr "Nombre d’avis."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-report-reviews-totals-controller.php:116
+msgid "Review type name."
+msgstr "Nom du type d’avis."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-report-orders-totals-controller.php:111
+msgid "Order status name."
+msgstr "Nom de l’état de la commande."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:339
+msgid "Thousands separator for displayed prices in this country."
+msgstr "Séparateur des milliers pour l’affichage des prix dans ce pays."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:330
+#: includes/rest-api/Controllers/Version3/class-wc-rest-data-countries-controller.php:228
+msgid "Full name of state."
+msgstr "Nom complet de l’état."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:308
+msgid "Number of decimal points shown in displayed prices for this country."
+msgstr "Nombre de décimales indiqué dans l’affichage des prix pour ce pays."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:290
+msgid "Decimal separator for displayed prices for this country."
+msgstr "Séparateur des décimales pour l’affichage des prix dans ce pays."
+
+#. translators: %1$s: field name, %2$s finder.eircode.ie URL
+#: includes/class-wc-checkout.php:763
+msgid "%1$s is not valid. You can look up the correct Eircode <a target=\"_blank\" href=\"%2$s\">here</a>."
+msgstr "%1$s n’est pas valide. Vous trouverez le code Eircode approprié <a target=\"_blank\" href=\"%2$s\">ici</a>."
+
+#. translators: 1: product name 2: quantity in stock
+#: includes/shortcodes/class-wc-shortcode-checkout.php:165
+#: includes/class-wc-cart.php:781
+msgid "Sorry, we do not have enough \"%1$s\" in stock to fulfill your order (%2$s available). We apologize for any inconvenience caused."
+msgstr "Désolé, nous n’avons pas assez de « %1$s » en stock pour satisfaire votre commande (disponibilité : %2$s). Veuillez nous excuser pour les problèmes occasionnés."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1043
+msgid "Invalid review ID."
+msgstr "ID d’avis non valide."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:995
+msgid "Limit result set to that from a specific author email."
+msgstr "Limiter le jeu de résultats à une adresse e-mail d’auteur spécifique."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:655
+msgid "The object cannot be deleted."
+msgstr "Impossible de supprimer l’objet."
+
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:71
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:849
+msgid "Unique identifier for the product that the review belongs to."
+msgstr "ID unique du produit auquel l’avis se réfère."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:419
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:565
+msgid "Product review field exceeds maximum length allowed."
+msgstr "Le champ d’avis sur le produit dépasse la longueur maximale autorisée."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:530
+msgid "Sorry, you are not allowed to change the comment type."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier le type de commentaire."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:571
+msgid "Updating review failed."
+msgstr "Échec de la mise à jour de l’avis."
+
+#. translators: %s: force=true
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:642
+msgid "The object does not support trashing. Set '%s' to delete."
+msgstr "L’objet ne peut être mis à la corbeille. Configurer la suppression de « %s »."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:549
+msgid "Updating review status failed."
+msgstr "Échec de la mise à jour de l’état de l’avis."
+
+#. translators: %d: avatar image size in pixels
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:131
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:900
+msgid "Avatar URL with image size of %d pixels."
+msgstr "URL d’avatar avec une taille d’image de %d pixels."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:980
+msgid "Limit result set to reviews assigned to specific user IDs."
+msgstr "Limite le jeu de résultats aux avis assignés à des ID d’utilisateurs spécifiques."
+
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:138
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:907
+msgid "Avatar URLs for the object reviewer."
+msgstr "URL d'avatar pour l’objet reviewer."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-order-notes-controller.php:157
+msgid "If true, this note will be attributed to the current user. If false, the note will be attributed to the system."
+msgstr "Si le résultat est « true », cette note sera attribuée à l’utilisateur actuel. Si le résultat est « false », la note sera attribuée au système."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:987
+msgid "Ensure result set excludes reviews assigned to specific user IDs."
+msgstr "Vérifiez que le jeu de résultats exclut les avis assignés à des ID d’utilisateurs spécifiques."
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:646
+msgid "The object has already been trashed."
+msgstr "L’objet a déjà été placé dans la corbeille."
+
+#: includes/admin/views/html-notice-template-check.php:21
+msgid "Update your theme to the latest version. If no update is available contact your theme author asking about compatibility with the current WooCommerce version."
+msgstr "Mettez à jour votre thème vers la dernière version. Si aucune mise à jour n’est disponible, contactez l’auteur du thème pour vous renseigner sur la compatibilité de ce dernier avec la version actuelle de WooCommerce."
+
 #. translators: %s: theme name
 #: includes/admin/views/html-notice-template-check.php:19
 msgid "<strong>Your theme (%s) contains outdated copies of some WooCommerce template files.</strong> These files may need updating to ensure they are compatible with the current version of WooCommerce. Suggestions to fix this:"
@@ -7831,10 +7831,6 @@ msgstr "Déplacer le mode de paiement « %s » vers le bas"
 msgid "Manage the \"%s\" payment method"
 msgstr "Gérer le mode de paiement « %s »"
 
-#: includes/admin/settings/class-wc-settings-products.php:334
-msgid "This is the attachment ID, or image URL, used for placeholder images in the product catalog. Products with no image will use this."
-msgstr "ID de pièce jointe ou URL d'image utilisé pour les paramètres fictifs des images dans le catalogue de produits. Les produits sans image l'utiliseront."
-
 #: includes/admin/views/html-admin-page-product-export.php:62
 msgid "Which product category should be exported?"
 msgstr "Quelle catégorie de produit devrait être exportée ?"
@@ -7874,15 +7870,6 @@ msgstr "Configurer Stripe pour moi avec cet e-mail :"
 msgid "Set up PayPal for me using this email:"
 msgstr "Configurer PayPal pour moi avec cet e-mail :"
 
-#. translators: %1$s: live rates tooltip text, %2$s: shipping extensions URL
-#: includes/admin/class-wc-admin-setup-wizard.php:1170
-msgid "If you'd like to offer <span class=\"help_tip\" data-tip=\"%1$s\">live rates</span> from a specific carrier (e.g. UPS) you can find a variety of extensions available for WooCommerce <a href=\"%2$s\" target=\"_blank\">here</a>."
-msgstr "Pour proposer des <span class=\"help_tip\" data-tip=\"%1$s\">tarifs réels</span> à partir d'un transporteur spécifique (par exemple UPS), vous trouverez de nombreuses extensions pour WooCommerce <a href=\"%2$s\" target=\"_blank\">ici</a>."
-
-#: includes/admin/class-wc-admin-setup-wizard.php:1182
-msgid "A live rate is the exact cost to ship an order, quoted directly from the shipping carrier."
-msgstr "Un tarif réel correspond au coût exact de la livraison d'une commande, conformément au devis réalisé directement par le transporteur."
-
 #. translators: %1$s: weight unit dropdown, %2$s: dimension unit dropdown
 #: includes/admin/class-wc-admin-setup-wizard.php:1197
 msgid "We'll use %1$s for product weight and %2$s for product dimensions."
@@ -7891,11 +7878,6 @@ msgstr "Nous utiliserons %1$s pour le poids des produits et %2$s pour leurs dime
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:81
 msgid "When product stock reaches this amount you will be notified by email"
 msgstr "Lorsque le stock atteindra cette valeur, vous recevrez une notification par e-mail"
-
-#. translators: %s: country name including the 'the' prefix if needed
-#: includes/admin/class-wc-admin-setup-wizard.php:1077
-msgid "We've created two Shipping Zones - for %s and for the rest of the world. Below you can set Flat Rate shipping costs for these Zones or offer Free Shipping."
-msgstr "Nous avons créé deux zones de livraison : pour %s et pour le reste du monde. Vous trouverez ci-après les coûts de livraison fixes de ces zones ou l'offre de livraison gratuite."
 
 #. Translators: %s URL to erasure request screen.
 #: includes/admin/settings/class-wc-settings-accounts.php:116
@@ -7911,17 +7893,35 @@ msgstr "Lors du traitement d’une %s, les données personnelles dans les comman
 msgid "Placeholder image"
 msgstr "Image indicative"
 
-#: includes/admin/settings/class-wc-settings-products.php:333
-msgid "Enter attachment ID or URL to an image"
-msgstr "Saisissez l’ID d'une pièce jointe ou l’URL vers une image"
-
 #: includes/admin/meta-boxes/views/html-variation-admin.php:188
 msgid "Enter a number to set stock quantity at the variation level. Use a variation's 'Manage stock?' check box above to enable/disable stock management at the variation level."
 msgstr "Saisissez un nombre pour définir la quantité en stock suivant un niveau de variation. Utilisez la case à cocher « Gérer le stock ? » de la variation ci-dessus pour activer/désactiver la gestion du stock suivant un niveau de variation."
 
+#: includes/admin/settings/class-wc-settings-products.php:334
+msgid "This is the attachment ID, or image URL, used for placeholder images in the product catalog. Products with no image will use this."
+msgstr "ID de pièce jointe ou URL d’image utilisé pour les paramètres fictifs des images dans le catalogue de produits. Les produits sans image l’utiliseront."
+
+#. translators: %1$s: live rates tooltip text, %2$s: shipping extensions URL
+#: includes/admin/class-wc-admin-setup-wizard.php:1170
+msgid "If you'd like to offer <span class=\"help_tip\" data-tip=\"%1$s\">live rates</span> from a specific carrier (e.g. UPS) you can find a variety of extensions available for WooCommerce <a href=\"%2$s\" target=\"_blank\">here</a>."
+msgstr "Pour proposer des <span class=\"help_tip\" data-tip=\"%1$s\">tarifs réels</span> à partir d’un transporteur spécifique (par exemple UPS), vous trouverez de nombreuses extensions pour WooCommerce <a href=\"%2$s\" target=\"_blank\">ici</a>."
+
+#: includes/admin/class-wc-admin-setup-wizard.php:1182
+msgid "A live rate is the exact cost to ship an order, quoted directly from the shipping carrier."
+msgstr "Un tarif réel correspond au coût exact de la livraison d’une commande, conformément au devis réalisé directement par le transporteur."
+
+#. translators: %s: country name including the 'the' prefix if needed
+#: includes/admin/class-wc-admin-setup-wizard.php:1077
+msgid "We've created two Shipping Zones - for %s and for the rest of the world. Below you can set Flat Rate shipping costs for these Zones or offer Free Shipping."
+msgstr "Nous avons créé deux zones de livraison : pour %s et pour le reste du monde. Vous trouverez ci-après les coûts de livraison fixes de ces zones ou l’offre de livraison gratuite."
+
+#: includes/admin/settings/class-wc-settings-products.php:333
+msgid "Enter attachment ID or URL to an image"
+msgstr "Saisissez l’ID d’une pièce jointe ou l’URL vers une image"
+
 #: includes/admin/class-wc-admin-setup-wizard.php:1110
 msgid "We recommend using ShipStation to save time at the post office by printing your shipping labels at home. Try ShipStation free for 30 days."
-msgstr "Nous vous recommandons d'utiliser ShipStation pour gagner du temps au bureau de poste en imprimant vos étiquettes de livraison chez vous. Essayez ShipStation gratuitement pendant 30 jours."
+msgstr "Nous vous recommandons d’utiliser ShipStation pour gagner du temps au bureau de poste en imprimant vos étiquettes de livraison chez vous. Essayez ShipStation gratuitement pendant 30 jours."
 
 #: i18n/states.php:1184
 msgid "San Pedro"
@@ -9415,7 +9415,7 @@ msgstr "%1$s (%2$s %3$s)"
 
 #: packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Tracking_Opt_In.php:61
 msgid "Help WooCommerce improve with usage tracking"
-msgstr "Aider WooCommerce à améliorer ses services grâce au suivi de l'utilisation"
+msgstr "Aider WooCommerce à améliorer ses services grâce au suivi de l’utilisation"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:285
 msgid "Profile &rarr;"
@@ -9443,23 +9443,10 @@ msgstr "Modifier cette commande"
 msgid "Change order status to processing"
 msgstr "Changer l’état de commande vers en attente"
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:200
-msgid "This will regenerate all shop thumbnails to match your theme and/or image settings."
-msgstr "Toutes les miniatures de la boutique seront regénérées pour s'adapter à votre thème et/ou aux paramètres des images."
-
-#: includes/admin/class-wc-admin-taxonomies.php:434
-msgid "This is the default category and it cannot be deleted. It will be automatically assigned to products with no category."
-msgstr "Il s'agit de la catégorie par défaut. Vous ne pouvez pas la supprimer. Elle sera automatiquement attribuée aux produits sans catégorie."
-
 #. translators: %s: taxonomy term name
 #: includes/admin/class-wc-admin-taxonomies.php:398
 msgid "Make &#8220;%s&#8221; the default category"
 msgstr "Définir « %s » en tant que catégorie par défaut"
-
-#. translators: %s: default category
-#: includes/admin/class-wc-admin-taxonomies.php:342
-msgid "Deleting a category does not delete the products in that category. Instead, products that were only assigned to the deleted category are set to the category %s."
-msgstr "La suppression de la catégorie ne supprime pas les produits qu'elle contient. Les produits qui étaient uniquement affectés à la catégorie supprimée se verront attribuer la catégorie %s."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:148
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:199
@@ -9469,10 +9456,6 @@ msgstr "Régénérer"
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:198
 msgid "Regenerate shop thumbnails"
 msgstr "Régénérer les miniatures de la boutique"
-
-#: includes/admin/views/html-notice-regenerating-thumbnails.php:12
-msgid "Thumbnail regeneration is running in the background. Depending on the amount of images in your store this may take a while."
-msgstr "La régénération des miniatures est exécutée en arrière-plan. En fonction de la quantité d'images que contient votre boutique, cette action peut prendre du temps."
 
 #: includes/admin/views/html-notice-regenerating-thumbnails.php:10
 msgid "Cancel thumbnail regeneration"
@@ -9497,6 +9480,23 @@ msgstr "Définir l’état de la commande sur Terminée"
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:563
 msgid "Change order status to on-hold"
 msgstr "Définir l’état de la commande sur En attente"
+
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:200
+msgid "This will regenerate all shop thumbnails to match your theme and/or image settings."
+msgstr "Toutes les miniatures de la boutique seront régénérées pour s’adapter à votre thème et/ou aux paramètres des images."
+
+#: includes/admin/class-wc-admin-taxonomies.php:434
+msgid "This is the default category and it cannot be deleted. It will be automatically assigned to products with no category."
+msgstr "Il s’agit de la catégorie par défaut. Vous ne pouvez pas la supprimer. Elle sera automatiquement attribuée aux produits sans catégorie."
+
+#. translators: %s: default category
+#: includes/admin/class-wc-admin-taxonomies.php:342
+msgid "Deleting a category does not delete the products in that category. Instead, products that were only assigned to the deleted category are set to the category %s."
+msgstr "La suppression de la catégorie ne supprime pas les produits qu’elle contient. Les produits qui étaient uniquement affectés à la catégorie supprimée se verront attribuer la catégorie %s."
+
+#: includes/admin/views/html-notice-regenerating-thumbnails.php:12
+msgid "Thumbnail regeneration is running in the background. Depending on the amount of images in your store this may take a while."
+msgstr "La régénération des miniatures est exécutée en arrière-plan. En fonction de la quantité d’images que contient votre boutique, cette action peut prendre du temps."
 
 #. translators: %s: Quantity.
 #: templates/global/quantity-input.php:28
@@ -9658,27 +9658,6 @@ msgstr "Choisir ce qui sera affiché sur la page principale de la boutique."
 msgid "Choose what to display on product category pages."
 msgstr "Choisir ce qui sera affiché sur les pages de catégories de produits."
 
-#: includes/gateways/paypal/includes/settings-paypal.php:179
-msgid "Sandbox API signature"
-msgstr "Signature de l'API Sandbox"
-
-#: includes/gateways/paypal/includes/settings-paypal.php:171
-msgid "Sandbox API password"
-msgstr "Mot de passe de l'API Sandbox"
-
-#: includes/gateways/paypal/includes/settings-paypal.php:155
-msgid "Live API signature"
-msgstr "Signature de l'API Live"
-
-#: includes/gateways/paypal/includes/settings-paypal.php:147
-msgid "Live API password"
-msgstr "Mot de passe de l'API Live"
-
-#. translators: %s: ID of the attachment.
-#: includes/class-wc-regenerate-images-request.php:107
-msgid "Regenerating images for attachment ID: %s"
-msgstr "Régénération des images pour l'ID de pièce jointe suivant : %s"
-
 #: includes/customizer/class-wc-shop-customizer.php:439
 msgid "How should products be sorted in the catalog by default?"
 msgstr "Comment les produits doivent-ils être triés par défaut dans le catalogue ?"
@@ -9691,13 +9670,34 @@ msgstr "Notification de la boutique"
 msgid "Enable store notice"
 msgstr "Activer la notification de la boutique"
 
+#: includes/gateways/paypal/includes/settings-paypal.php:179
+msgid "Sandbox API signature"
+msgstr "Signature de l’API Sandbox"
+
+#: includes/gateways/paypal/includes/settings-paypal.php:171
+msgid "Sandbox API password"
+msgstr "Mot de passe de l’API Sandbox"
+
+#: includes/gateways/paypal/includes/settings-paypal.php:155
+msgid "Live API signature"
+msgstr "Signature de l’API Live"
+
+#: includes/gateways/paypal/includes/settings-paypal.php:147
+msgid "Live API password"
+msgstr "Mot de passe de l’API Live"
+
+#. translators: %s: ID of the attachment.
+#: includes/class-wc-regenerate-images-request.php:107
+msgid "Regenerating images for attachment ID: %s"
+msgstr "Régénération des images pour l’ID de pièce jointe suivant : %s"
+
 #: includes/gateways/paypal/includes/settings-paypal.php:163
 msgid "Sandbox API username"
-msgstr "Identifiant de l'API Sandbox"
+msgstr "Identifiant de l’API Sandbox"
 
 #: includes/gateways/paypal/includes/settings-paypal.php:139
 msgid "Live API username"
-msgstr "Identifiant de l'API Live"
+msgstr "Identifiant de l’API Live"
 
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php:193
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customer-downloads-v2-controller.php:81
@@ -10177,7 +10177,7 @@ msgstr "Rouble biélorusse (ancien)"
 
 #: templates/myaccount/form-add-payment-method.php:60
 msgid "New payment methods can only be added during checkout. Please contact us if you require assistance."
-msgstr "Les nouveaux moyens de paiement peuvent uniquement être ajoutées pendant le paiement. Veuillez nous contacter si vous avez besoin d'aide."
+msgstr "Les nouveaux moyens de paiement peuvent uniquement être ajoutées pendant le paiement. Veuillez nous contacter si vous avez besoin d’aide."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:728
 msgid "Define if the variation is visible on the product's page."
@@ -10229,11 +10229,6 @@ msgstr "Montant de la remise non valide"
 #: includes/class-wc-checkout.php:260
 msgid "Create account password"
 msgstr "Créer le mot de passe du compte"
-
-#. translators: 1: wc_load_cart 2: woocommerce_init
-#: includes/wc-core-functions.php:2426
-msgid "%1$s should not be called before the %2$s action."
-msgstr "N'appelez pas %1$s avant l'action %2$s."
 
 #: includes/wc-attribute-functions.php:475
 msgid "Please, provide an attribute name."
@@ -10384,6 +10379,11 @@ msgstr "Désolé, ce code promo n’est pas applicable aux produits sélectionn�
 msgid "Maximum depth"
 msgstr "Longueur maximale"
 
+#. translators: 1: wc_load_cart 2: woocommerce_init
+#: includes/wc-core-functions.php:2426
+msgid "%1$s should not be called before the %2$s action."
+msgstr "N’appelez pas %1$s avant l’action %2$s."
+
 #: includes/admin/settings/class-wc-settings-general.php:81
 msgid "Country / State"
 msgstr "Pays / État"
@@ -10477,17 +10477,9 @@ msgstr "La ville dans laquelle votre entreprise est située."
 msgid "Clear customer sessions"
 msgstr "Effacer les sessions clients"
 
-#: includes/admin/views/html-admin-page-status-report.php:601
-msgid "Post Type Counts"
-msgstr "Nombre de types d'article"
-
 #: includes/admin/settings/class-wc-settings-general.php:55
 msgid "The street address for your business location."
 msgstr "La rue où est implantée votre entreprise."
-
-#: includes/admin/settings/class-wc-settings-general.php:49
-msgid "This is where your business is located. Tax rates and shipping rates will use this address."
-msgstr "Indique où se trouve votre entreprise. Cette adresse sera utilisée pour les taux d'imposition et les frais de livraison."
 
 #: includes/admin/plugin-updates/views/html-notice-untested-extensions-modal.php:44
 msgid "As this is a major update, we strongly recommend creating a backup of your site before updating."
@@ -10512,6 +10504,14 @@ msgstr "En complément, une ligne d’adresse (facultative) pour l’emplacement
 #: includes/admin/plugin-updates/views/html-notice-untested-extensions-modal.php:49
 msgid "Update now"
 msgstr "Mettre à jour maintenant"
+
+#: includes/admin/views/html-admin-page-status-report.php:601
+msgid "Post Type Counts"
+msgstr "Nombre de types d’article"
+
+#: includes/admin/settings/class-wc-settings-general.php:49
+msgid "This is where your business is located. Tax rates and shipping rates will use this address."
+msgstr "Indique où se trouve votre entreprise. Cette adresse sera utilisée pour les taux d’imposition et les frais de livraison."
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:387
 msgid "The file is empty or using a different encoding than UTF-8, please try again with a new file."
@@ -13553,10 +13553,6 @@ msgstr "Le client est-il un client payant ?"
 msgid "List of user IDs (or guest email addresses) that have used the coupon."
 msgstr "Liste des IDs d’utilisateurs (ou adresse de messagerie pour les invités) qui ont utilisé le code promo."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:383
-msgid "User ID of user who created the refund."
-msgstr "ID de l&rsquo;utilisateur qui a créé le remboursement."
-
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:502
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:973
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:401
@@ -13574,6 +13570,10 @@ msgstr "ID de l&rsquo;utilisateur qui a créé le remboursement."
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:727
 msgid "Meta ID."
 msgstr "ID méta."
+
+#: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:383
+msgid "User ID of user who created the refund."
+msgstr "ID de l&rsquo;utilisateur qui a créé le remboursement."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:403
 #: includes/rest-api/Controllers/Version1/class-wc-rest-coupons-v1-controller.php:466
@@ -17034,19 +17034,6 @@ msgstr "ID du remboursement."
 msgid "Payment method ID."
 msgstr "ID du moyen de paiement."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:943
-#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1983
-#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2028
-#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2203
-#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2245
-#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2534
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1186
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1231
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:697
-#: includes/cli/class-wc-cli-runner.php:114
-msgid "Attribute ID."
-msgstr "ID de l’attribut."
-
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1119
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1164
 msgid "Unique transaction ID."
@@ -17069,6 +17056,19 @@ msgstr "ID de l’étiquette."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2270
 msgid "Variation ID."
 msgstr "ID de la variation."
+
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:943
+#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1983
+#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2028
+#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2203
+#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2245
+#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2534
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1186
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1231
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:697
+#: includes/cli/class-wc-cli-runner.php:114
+msgid "Attribute ID."
+msgstr "ID de l’attribut."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:47
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:464
@@ -17826,21 +17826,6 @@ msgstr "La livraison est actuellement active, mais vous n&rsquo;avez ajouté auc
 msgid "Download ID (MD5)."
 msgstr "ID de téléchargement (MD5)."
 
-#: includes/wc-core-functions.php:148
-#: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:191
-#: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:273
-#: includes/rest-api/Controllers/Version2/class-wc-rest-order-notes-v2-controller.php:39
-#: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:186
-#: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:226
-#: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:268
-#: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:301
-#: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:127
-#: includes/rest-api/Controllers/Version3/class-wc-rest-order-refunds-controller.php:40
-#: includes/rest-api/Controllers/Version3/class-wc-rest-order-notes-controller.php:79
-#: includes/wc-order-functions.php:512 includes/wc-order-functions.php:1075
-msgid "Invalid order ID."
-msgstr "ID commande non valide."
-
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:195
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:133
 #: includes/legacy/api/v2/class-wc-api-orders.php:1512
@@ -17856,6 +17841,21 @@ msgstr "ID de commande de remboursement non valide."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-coupons-v1-controller.php:480
 msgid "List of product IDs the coupon cannot be used on."
 msgstr "Liste des IDs de produits pour lesquels le code promo ne peut pas être utilisé."
+
+#: includes/wc-core-functions.php:148
+#: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:191
+#: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:273
+#: includes/rest-api/Controllers/Version2/class-wc-rest-order-notes-v2-controller.php:39
+#: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:186
+#: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:226
+#: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:268
+#: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:301
+#: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:127
+#: includes/rest-api/Controllers/Version3/class-wc-rest-order-refunds-controller.php:40
+#: includes/rest-api/Controllers/Version3/class-wc-rest-order-notes-controller.php:79
+#: includes/wc-order-functions.php:512 includes/wc-order-functions.php:1075
+msgid "Invalid order ID."
+msgstr "ID commande non valide."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:409
 #: includes/rest-api/Controllers/Version1/class-wc-rest-coupons-v1-controller.php:472
@@ -27615,6 +27615,18 @@ msgstr "Publiez votre produit !"
 msgid "You can optionally \"tag\" your products here. Tags are a method of labeling your products to make them easier for customers to find."
 msgstr "Vous pouvez « étiqueter » vos produits ici. Les étiquettes sont une méthode d'étiquetage de vos produits pour les rendre plus faciles à trouver pour les clients."
 
+#: includes/admin/class-wc-admin-pointers.php:194
+msgid "Optionally assign categories to your products to make them easier to browse through and find in your store."
+msgstr "Assignez des catégories à vos produits pour faciliter la navigation et la recherche dans votre boutique."
+
+#: includes/admin/class-wc-admin-pointers.php:110
+msgid "Check the \"Virtual\" box if this is a non-physical item, for example a service, which does not need shipping."
+msgstr "Cochez la case « Virtuelle » pour un élément immatériel, par exemple un service, qui ne nécessite pas d’envoi."
+
+#: includes/admin/class-wc-admin-pointers.php:126
+msgid "If purchasing this product gives a customer access to a downloadable file, e.g. software, check this box."
+msgstr "Si acheter ce produit donne accès à vos clients à un fichier téléchargeable, par exemple un logiciel, alors cochez cette case."
+
 #: includes/widgets/class-wc-widget-product-categories.php:39
 #: packages/woocommerce-blocks/assets/js/components/product-category-control/index.js:100
 #: packages/woocommerce-blocks/build/product-best-sellers.js:1
@@ -27633,18 +27645,6 @@ msgstr "Vous pouvez « étiqueter » vos produits ici. Les étiquettes sont un
 #: packages/woocommerce-blocks/build/product-category-legacy.js:1
 msgid "Product Categories"
 msgstr "Catégories de produit"
-
-#: includes/admin/class-wc-admin-pointers.php:194
-msgid "Optionally assign categories to your products to make them easier to browse through and find in your store."
-msgstr "Assignez des catégories à vos produits pour faciliter la navigation et la recherche dans votre boutique."
-
-#: includes/admin/class-wc-admin-pointers.php:110
-msgid "Check the \"Virtual\" box if this is a non-physical item, for example a service, which does not need shipping."
-msgstr "Cochez la case « Virtuelle » pour un élément immatériel, par exemple un service, qui ne nécessite pas d’envoi."
-
-#: includes/admin/class-wc-admin-pointers.php:126
-msgid "If purchasing this product gives a customer access to a downloadable file, e.g. software, check this box."
-msgstr "Si acheter ce produit donne accès à vos clients à un fichier téléchargeable, par exemple un logiciel, alors cochez cette case."
 
 #: includes/admin/class-wc-admin-post-types.php:631
 msgid "Description (optional)"

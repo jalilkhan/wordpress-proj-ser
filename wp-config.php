@@ -1,11 +1,11 @@
 <?php
 
 ######## EDNS WP CUSTOM ########
-$_SERVER['HTTPS']='on';
-define('FORCE_SSL_ADMIN', true);
-define('FORCE_SSL', true);
-define('WP_HOME', 'https://servent.lu');
-define('WP_SITEURL', 'https://servent.lu');
+//$_SERVER['HTTPS']='on';
+//define('FORCE_SSL_ADMIN', true);
+//define('FORCE_SSL', true);
+define('WP_HOME', 'http://servent.lu');
+define('WP_SITEURL', 'http://servent.lu');
 
 ######## END EDNS WP CUSTOM ########
 
@@ -31,13 +31,13 @@ define('WP_AUTO_UPDATE_CORE', 'minor');// This setting is required to make sure 
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp_st7un' );
+define( 'DB_NAME', 'wp_servent_db' );
 
 /** MySQL database username */
-define( 'DB_USER', 'wp_snkk9' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'c9I2P#Lhf0' );
+define( 'DB_PASSWORD', '1306!Julia' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost:3306' );

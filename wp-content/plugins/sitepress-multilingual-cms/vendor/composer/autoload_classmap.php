@@ -561,6 +561,7 @@ return array(
     'WPML\\Rest\\Adaptor' => $baseDir . '/classes/API/REST/Adaptor.php',
     'WPML\\Rest\\Base' => $baseDir . '/classes/API/REST/Base.php',
     'WPML\\Rest\\ITarget' => $baseDir . '/classes/API/REST/Target.php',
+    'WPML\\SuperGlobals\\Server' => $baseDir . '/classes/super-globals/Server.php',
     'WPML\\Troubleshooting\\AssignTranslationStatusToDuplicates' => $baseDir . '/classes/troubleshoot/AssignTranslationStatusToDuplicates.php',
     'WPML\\Upgrade\\Command\\DisableOptionsAutoloading' => $baseDir . '/classes/upgrade/commands/class-disable-options-autoloading.php',
     'WPML\\Upgrade\\CommandsStatus' => $baseDir . '/classes/upgrade/CommandsStatus.php',

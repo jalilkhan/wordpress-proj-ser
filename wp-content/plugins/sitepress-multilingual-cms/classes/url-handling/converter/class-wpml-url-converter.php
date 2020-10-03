@@ -9,6 +9,7 @@
  */
 
 use \WPML\UrlHandling\WPLoginUrlConverter;
+use \WPML\SuperGlobals\Server;
 
 class WPML_URL_Converter {
 	/**
@@ -208,10 +209,9 @@ class WPML_URL_Converter {
 	 * @return bool
 	 */
 	private function can_resolve_object_url( $url ) {
-		$server_name = isset( $_SERVER['SERVER_NAME'] ) ? $_SERVER['SERVER_NAME'] : '';
 		$request_uri = isset( $_SERVER['REQUEST_URI'] ) ? $_SERVER['REQUEST_URI'] : '';
 		$server_name = strpos( $request_uri, '/' ) === 0
-			? untrailingslashit( $server_name ) : trailingslashit( $server_name );
+			? untrailingslashit( Server::getServerName() ) : trailingslashit( Server::getServerName() );
 		$request_url = stripos( get_option( 'siteurl' ), 'https://' ) === 0
 			? 'https://' . $server_name . $request_uri : 'http://' . $server_name . $request_uri;
 

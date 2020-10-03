@@ -1,0 +1,96 @@
+[Fri Sep 25 06:25:04.485539 2020] [mpm_prefork:notice] [pid 30857] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Sep 25 06:25:04.485603 2020] [core:notice] [pid 30857] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Sep 25 06:44:39.215753 2020] [php7:warn] [pid 15536] [client 109.134.25.98:50897] PHP Warning:  ftp_nlist() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 420, referer: http://servent.lu/wp-admin/update-core.php?action=do-plugin-upgrade
+[Fri Sep 25 06:44:39.215800 2020] [php7:warn] [pid 15536] [client 109.134.25.98:50897] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230, referer: http://servent.lu/wp-admin/update-core.php?action=do-plugin-upgrade
+[Fri Sep 25 06:44:39.215817 2020] [php7:warn] [pid 15536] [client 109.134.25.98:50897] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230, referer: http://servent.lu/wp-admin/update-core.php?action=do-plugin-upgrade
+[Fri Sep 25 06:44:39.216559 2020] [php7:warn] [pid 15536] [client 109.134.25.98:50897] PHP Warning:  ftp_nlist() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 420, referer: http://servent.lu/wp-admin/update-core.php?action=do-plugin-upgrade
+[Fri Sep 25 06:44:39.216575 2020] [php7:warn] [pid 15536] [client 109.134.25.98:50897] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230, referer: http://servent.lu/wp-admin/update-core.php?action=do-plugin-upgrade
+[Fri Sep 25 06:44:39.216584 2020] [php7:warn] [pid 15536] [client 109.134.25.98:50897] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230, referer: http://servent.lu/wp-admin/update-core.php?action=do-plugin-upgrade
+[Fri Sep 25 06:44:54.370826 2020] [php7:warn] [pid 15801] [client 109.134.25.98:50903] PHP Warning:  ftp_nlist() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 420, referer: http://servent.lu/wp-admin/admin.php?page=wc-admin
+[Fri Sep 25 06:44:54.370886 2020] [php7:warn] [pid 15801] [client 109.134.25.98:50903] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230, referer: http://servent.lu/wp-admin/admin.php?page=wc-admin
+[Fri Sep 25 06:44:54.370899 2020] [php7:warn] [pid 15801] [client 109.134.25.98:50903] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230, referer: http://servent.lu/wp-admin/admin.php?page=wc-admin
+[Fri Sep 25 06:44:54.371675 2020] [php7:warn] [pid 15801] [client 109.134.25.98:50903] PHP Warning:  ftp_nlist() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 420, referer: http://servent.lu/wp-admin/admin.php?page=wc-admin
+[Fri Sep 25 06:44:54.371706 2020] [php7:warn] [pid 15801] [client 109.134.25.98:50903] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230, referer: http://servent.lu/wp-admin/admin.php?page=wc-admin
+[Fri Sep 25 06:44:54.371715 2020] [php7:warn] [pid 15801] [client 109.134.25.98:50903] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230, referer: http://servent.lu/wp-admin/admin.php?page=wc-admin
+[Fri Sep 25 07:00:51.670862 2020] [php7:notice] [pid 15794] [client 111.119.188.16:28823] The WC_Cart->tax_display_cart argument is deprecated since version 4.4. Use WC_Cart->get_tax_price_display_mode() instead., referer: http://servent.lu/
+[Fri Sep 25 07:01:26.340853 2020] [php7:error] [pid 15933] [client 111.119.188.16:28824] PHP Fatal error:  Out of memory (allocated 20971520) (tried to allocate 20480 bytes) in /var/www/html/wp-includes/post.php on line 1561, referer: http://servent.lu/wp-admin/
+[Fri Sep 25 07:01:26.406440 2020] [php7:error] [pid 15933] [client 111.119.188.16:28824] PHP Fatal error:  Out of memory (allocated 20971520) (tried to allocate 20480 bytes) in /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php on line 83, referer: http://servent.lu/wp-admin/
+[Fri Sep 25 07:01:55.129726 2020] [php7:error] [pid 15932] [client 111.119.188.16:28827] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 20480 bytes) in /var/www/html/wp-includes/plugin.php on line 182, referer: http://servent.lu/wp-admin/
+[Fri Sep 25 07:01:55.148609 2020] [php7:error] [pid 15932] [client 111.119.188.16:28827] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 65536 bytes) in /var/www/html/wp-includes/class-wp-fatal-error-handler.php on line 52, referer: http://servent.lu/wp-admin/
+[Fri Sep 25 07:02:14.871359 2020] [php7:error] [pid 15794] [client 138.68.70.157:50660] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 65536 bytes) in /var/www/html/wp-content/plugins/sitepress-multilingual-cms/vendor/composer/ClassLoader.php on line 444, referer: http://servent.lu/wp-cron.php?doing_wp_cron=1601017304.5578069686889648437500
+[Fri Sep 25 07:02:14.950665 2020] [php7:error] [pid 15794] [client 138.68.70.157:50660] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 65536 bytes) in /var/www/html/wp-includes/class-wp-fatal-error-handler.php on line 80, referer: http://servent.lu/wp-cron.php?doing_wp_cron=1601017304.5578069686889648437500
+[Fri Sep 25 07:09:47.847534 2020] [php7:error] [pid 15921] [client 111.119.188.16:29646] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 65536 bytes) in /var/www/html/wp-settings.php on line 391
+[Fri Sep 25 07:09:47.980784 2020] [php7:error] [pid 15921] [client 111.119.188.16:29646] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 73728 bytes) in /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php on line 54
+[Fri Sep 25 07:10:17.449709 2020] [php7:warn] [pid 15853] [client 109.134.25.98:51253] PHP Warning:  Error while sending QUERY packet. PID=15853 in /var/www/html/wp-includes/wp-db.php on line 2033
+[Fri Sep 25 07:11:31.708565 2020] [php7:warn] [pid 15829] [client 109.134.25.98:51058] PHP Warning:  Error while sending QUERY packet. PID=15829 in /var/www/html/wp-includes/wp-db.php on line 2033, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+[Fri Sep 25 07:13:36.881530 2020] [php7:error] [pid 15921] [client 138.68.70.157:50922] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 32768 bytes) in /var/www/html/wp-content/plugins/sitepress-multilingual-cms/vendor/otgs/installer/includes/class-wp-installer.php on line 628, referer: http://servent.lu/wp-cron.php?doing_wp_cron=1601017991.7352979183197021484375
+[Fri Sep 25 07:13:36.924540 2020] [php7:error] [pid 15921] [client 138.68.70.157:50922] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 32768 bytes) in /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-log-levels.php on line 1, referer: http://servent.lu/wp-cron.php?doing_wp_cron=1601017991.7352979183197021484375
+[Fri Sep 25 07:13:57.116617 2020] [php7:error] [pid 15931] [client 109.134.25.98:51294] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 36864 bytes) in /var/www/html/wp-content/themes/bello/fonts/FontAwesome/FontAwesome.php on line 3, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+[Fri Sep 25 07:15:55.407806 2020] [php7:error] [pid 15932] [client 109.134.25.98:51298] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 20480 bytes) in /var/www/html/wp-content/themes/bello/fonts/Music01/Music01.php on line 3, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+[Fri Sep 25 07:16:00.544982 2020] [php7:error] [pid 15932] [client 109.134.25.98:51298] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 32768 bytes) in /var/www/html/wp-includes/PHPMailer/PHPMailer.php on line 1, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+[Fri Sep 25 07:21:58.776693 2020] [php7:error] [pid 15934] [client 109.134.25.98:51379] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 65536 bytes) in /var/www/html/wp-content/plugins/sitepress-multilingual-cms/vendor/composer/ClassLoader.php on line 444
+[Fri Sep 25 07:21:59.931745 2020] [php7:error] [pid 15934] [client 109.134.25.98:51379] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 65536 bytes) in /var/www/html/wp-includes/class-wp-hook.php on line 289
+[Fri Sep 25 07:30:19.113954 2020] [php7:warn] [pid 15923] [client 120.193.91.215:43379] PHP Warning:  Error while sending QUERY packet. PID=15923 in /var/www/html/wp-includes/wp-db.php on line 2033
+[Fri Sep 25 07:30:38.139460 2020] [php7:warn] [pid 15829] [client 109.134.25.98:51058] PHP Warning:  Error while sending QUERY packet. PID=15829 in /var/www/html/wp-includes/wp-db.php on line 2033, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+[Fri Sep 25 07:30:48.153405 2020] [php7:warn] [pid 15703] [client 109.134.25.98:51059] PHP Warning:  Error while sending QUERY packet. PID=15703 in /var/www/html/wp-includes/wp-db.php on line 2033
+[Fri Sep 25 07:30:53.156559 2020] [php7:warn] [pid 15797] [client 109.134.25.98:51073] PHP Warning:  Error while sending QUERY packet. PID=15797 in /var/www/html/wp-includes/wp-db.php on line 2033, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+[Fri Sep 25 07:31:03.163207 2020] [php7:warn] [pid 15821] [client 109.134.25.98:51077] PHP Warning:  Error while sending QUERY packet. PID=15821 in /var/www/html/wp-includes/wp-db.php on line 2033, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+[Fri Sep 25 07:31:13.168767 2020] [php7:warn] [pid 15536] [client 109.134.25.98:51091] PHP Warning:  Error while sending QUERY packet. PID=15536 in /var/www/html/wp-includes/wp-db.php on line 2033, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+[Fri Sep 25 07:31:23.174191 2020] [php7:warn] [pid 15852] [client 109.134.25.98:51093] PHP Warning:  Error while sending QUERY packet. PID=15852 in /var/www/html/wp-includes/wp-db.php on line 2033, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+[Fri Sep 25 07:31:33.179304 2020] [php7:warn] [pid 15882] [client 109.134.25.98:51114] PHP Warning:  Error while sending QUERY packet. PID=15882 in /var/www/html/wp-includes/wp-db.php on line 2033, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+[Fri Sep 25 07:31:43.184806 2020] [php7:warn] [pid 15801] [client 109.134.25.98:51117] PHP Warning:  Error while sending QUERY packet. PID=15801 in /var/www/html/wp-includes/wp-db.php on line 2033, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+[Fri Sep 25 07:31:53.190274 2020] [php7:warn] [pid 15793] [client 109.134.25.98:51120] PHP Warning:  Error while sending QUERY packet. PID=15793 in /var/www/html/wp-includes/wp-db.php on line 2033, referer: http://servent.lu/wp-admin/edit.php?post_type=page
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory

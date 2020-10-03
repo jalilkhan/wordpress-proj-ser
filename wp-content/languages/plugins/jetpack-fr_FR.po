@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-16 17:31:22+0000\n"
+"PO-Revision-Date: 2020-09-17 18:14:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8966,11 +8966,6 @@ msgstr "Votre blog principal n'est pas connecté à WordPress.com. Connectez-vou
 msgid "Error code: %s"
 msgstr "Code d&rsquo;erreur&nbsp;: %s"
 
-#: modules/publicize/ui.php:300 _inc/blocks/editor.js:18
-#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor-beta.js:18
-msgid "Before you hit Publish, please refresh the following connection(s) to make sure we can Publicize your post:"
-msgstr "Avant de cliquer sur \"Publier\", merci de rafraîchir les connexions suivantes afin de vous assurer que Publicize fonctionnera correctement&nbsp;:"
-
 #: modules/publicize/ui.php:471
 msgid "Publicize:"
 msgstr "Publicize&nbsp;:"
@@ -9028,6 +9023,11 @@ msgstr "Icône de site"
 #: modules/publicize/publicize-jetpack.php:194
 msgid "There was a problem connecting to %s to create an authorized connection. Please try again in a moment."
 msgstr "Un problème de connexion à %s empêche de créer une connexion autorisée. Veuillez réessayer dans un moment."
+
+#: modules/publicize/ui.php:300 _inc/blocks/editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor-beta.js:18
+msgid "Before you hit Publish, please refresh the following connection(s) to make sure we can Publicize your post:"
+msgstr "Avant de cliquer sur \"Publier\", veuillez actualiser les connexions suivantes afin de vous assurer que Publicize fonctionnera correctement :"
 
 #: modules/module-headings.php:187
 msgctxt "Module Description"

@@ -1,7 +1,7 @@
 <?php
 
 use WPML\Collect\Support\Collection;
-use \WPML\FP\Wrapper;
+use WPML\FP\Either;
 use \WPML\FP\Obj;
 use function WPML\Container\make;
 use function \WPML\FP\partial;
@@ -253,10 +253,11 @@ class WPML_Admin_Texts extends WPML_Admin_Text_Functionality {
 	 * @return bool
 	 */
 	private function isAdminText( $key, $name ) {
-		return null !== Wrapper::of( $this->getSubKey( $key, $name ) )
-		                       ->map( [ self::class, 'getKeysParts' ] )
-		                       ->map( invoke( 'reduce' )->with( flip( Obj::prop() ), $this->getOptionNames() ) )
-		                       ->get();
+
+		return null !== Either::of( $this->getSubKey( $key, $name ) )
+		                      ->map( [ self::class, 'getKeysParts' ] )
+		                      ->tryCatch( invoke( 'reduce' )->with( flip( Obj::prop() ), $this->getOptionNames() ) )
+		                      ->getOrElse( null );
 	}
 
 	/**

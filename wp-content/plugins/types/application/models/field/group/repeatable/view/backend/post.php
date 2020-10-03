@@ -74,13 +74,13 @@ class Types_Field_Group_Repeatable_View_Backend_Post {
 			Toolset_Assets_Manager::SCRIPT_WPTOOLSET_FORM_VALIDATION,
 		);
 
-		/* todo DELETE WITHOUT REPLACEMENT WHEN https://core.trac.wordpress.org/ticket/45289 is fixed */
+		// See https://core.trac.wordpress.org/ticket/45289. */
 		$dic = toolset_dic();
 		/** @var \OTGS\Toolset\Types\Controller\Compatibility\Gutenberg $gutenberg */
 		$gutenberg = $dic->make( '\OTGS\Toolset\Types\Controller\Compatibility\Gutenberg' );
 
 		if ( $gutenberg->is_active_for_current_post_type() ) {
-			array_push( $script_dependencies, 'wp-editor' );
+			$script_dependencies[] = 'wp-editor';
 		}
 		/* END DELETE */
 

@@ -1,5 +1,7 @@
 <?php
 
+use \WPML\SuperGlobals\Server;
+
 class WPML_URL_Converter_Domain_Strategy extends WPML_URL_Converter_Abstract_Strategy {
 
 	/** @var string[] $domains */
@@ -44,8 +46,7 @@ class WPML_URL_Converter_Domain_Strategy extends WPML_URL_Converter_Abstract_Str
 	 */
 	public function convertRestUrlToCurrentDomain( $url, $path, $blog_id, $scheme ) {
 		$url_parts         = $this->parse_domain_and_subdir( $url );
-		$url_parts['host'] = filter_input( INPUT_SERVER, 'SERVER_NAME', FILTER_SANITIZE_URL )
-			?: filter_input( INPUT_SERVER, 'HTTP_HOST', FILTER_SANITIZE_URL );
+		$url_parts['host'] = Server::getServerName();
 		$url               = http_build_url( $url_parts );
 
 		return $url;
