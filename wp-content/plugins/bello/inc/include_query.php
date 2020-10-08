@@ -158,17 +158,18 @@ if ( ! function_exists( 'boldthemes_get_query_listings' ) ) {
 		/* /wp query */	        
 
 		add_filter( 'posts_join', 'boldthemes_posts_join_filter', 10, 2 ); 
-		add_filter( 'posts_where', 'boldthemes_posts_where_filter', 10, 2 ); 
-                
+		add_filter( 'posts_where', 'boldthemes_posts_where_filter', 10, 2 );
+
+
 		$listing_query	= new WP_Query($args);
              
         remove_filter( 'posts_join', 'boldthemes_posts_join_filter', 10, 2 ); 
-		remove_filter( 'posts_where', 'boldthemes_posts_where_filter', 10, 2 ); 
-		
+		remove_filter( 'posts_where', 'boldthemes_posts_where_filter', 10, 2 );
+
         $found      = $listing_query->found_posts;
 		$listings   = $listing_query->posts;
         // var_dump($listing_query->request);
-                
+        //print_r($listings);exit;
 		wp_reset_postdata();
         reset($listings);
                 
@@ -208,11 +209,13 @@ if ( ! function_exists( 'boldthemes_get_query_listings' ) ) {
 				foreach ( $listings as &$listing ) {
 					$listing->featured = bello_listing_is_featured( $listing ) ? 1 : 0;	
 					if ( $listing->featured == 1 ) {
+
 							array_push( $listings_featured, $listing );
 					}else{
 							array_push( $listings_non_featured, $listing );
 					}
 				}
+                //Wprint_r($listings_featured);
 
 				if ( $featured_only ){
 					$listings =  $listings_featured;
@@ -220,7 +223,8 @@ if ( ! function_exists( 'boldthemes_get_query_listings' ) ) {
 					$listings =  $listings_non_featured;;
 				}else{
 					if ( $featured_listing_bb_element == 1 ){
-						$listings = $listings;
+						//$listings = $listings;
+                        $listings = array_merge( $listings_featured, $listings_non_featured );
 					}else{
 						$listings = array_merge( $listings_featured, $listings_non_featured );
 					}

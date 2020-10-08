@@ -253,7 +253,12 @@ function bello_get_meta_values( $a ) {
 function bello_endpoint_content() {
 
 	$author_id = get_current_user_id();
-       
+    $user = wp_get_current_user();
+    $role = ( array ) $user->roles;
+
+    if(in_array('customer',$role)) {
+        return '';
+    }
 	if ( isset( $_GET['listing_id'] ) && isset( $_GET['cat'] ) ) { // EDIT
 		
 		$listing_id = $_GET['listing_id'];

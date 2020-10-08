@@ -79,12 +79,15 @@ if ( ! function_exists( 'bello_ajax_register' ) ) {
         $post_user  = apply_filters( 'pre_user_user_login', $_POST['username'] );
         $post_pass  = apply_filters( 'pre_user_user_pass', $_POST['password'] );
         $post_email = apply_filters( 'pre_user_user_email', $_POST['username'] );
+        $account_type = $_POST['account_type'];
+        $plan = $_POST['plan'];
 
         $info = array();
         $info['user_login']     = $post_user;
         $info['user_pass']      = $post_pass;
         $info['user_email']     = $post_email;
         $info['role']           = 'customer';
+
         $new_user_id = wp_insert_user( $info );
 
         if ( is_wp_error($new_user_id) ){

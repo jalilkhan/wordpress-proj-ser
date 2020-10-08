@@ -35,3 +35,9 @@
     transition: 300ms ease;
     color: #fff;
     }
+#bt_bb_listing_view_container .bt_bb_listing_box {
+    order: unset !important;
+}
+.div-hide {
+    display: none;
+}

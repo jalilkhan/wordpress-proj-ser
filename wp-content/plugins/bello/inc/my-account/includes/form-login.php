@@ -78,6 +78,23 @@ $show_social_connect = ( boldthemes_get_option( 'listing_show_social_logins' ) =
                             <label><?php _e( 'Password', 'bt_plugin' ); ?> <span class="required">*</span></label>
                             <input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="bt_reg_password" id="bt_reg_password">
                         </p>
+                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                            <label><?php _e( 'Account Type', 'bt_plugin' ); ?> <span class="required">*</span></label>
+                            <select class="woocommerce-Input woocommerce-Input--text input-text" name="bt_reg_account_type" id="bt_reg_account_type">
+                                <option value="">Select Type</option>
+                                <option value="customer">Customer</option>
+                                <option value="service_provider">Service Provider</option>
+                            </select>
+                        </p>
+                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide div-hide woocommerce-form-row-packages">
+                            <label><?php _e( 'Subscription Packages', 'bt_plugin' ); ?> <span class="required">*</span></label>
+                            <select class="woocommerce-Input woocommerce-Input--text input-text" name="bt_reg_plan" id="bt_reg_plan">
+                                <option value="">Select Plan</option>
+                                <option value="standard">Standard $0</option>
+                                <option value="premium">Premium $59</option>
+                                <option value="premium_plus">Premium Plus $99</option>
+                            </select>
+                        </p>
                         <?php do_action( 'woocommerce_register_form' ); ?>
                         <?php //do_action( 'register_form' ); ?>
                         <p class="woocommerce-FormRow form-row">

@@ -59,4 +59,21 @@ function your_prefix_register_meta_boxes( $meta_boxes ) {
 
     return $meta_boxes;
 }
+
+function bello_child_custom_my_account_menu_items( $items ) {
+    $user = wp_get_current_user();
+    $role = ( array ) $user->roles;
+
+    if(in_array('customer',$role)) {
+        unset( $items['orders'] );
+        unset( $items['subscriptions'] );
+        unset( $items['downloads'] );
+        unset( $items['edit-address'] );
+        unset( $items['bello-listing-endpoint'] );
+    }
+
+    return $items;
+}
+add_filter( 'woocommerce_account_menu_items', 'bello_child_custom_my_account_menu_items' );
+
 ?>

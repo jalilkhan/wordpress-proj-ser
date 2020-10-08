@@ -1679,7 +1679,11 @@ function bello_field_in_packages( $field, $listing_id = 0 ) {
 function bello_listing_is_featured( $listing ) {
 
 	$listing_package = bello_get_listing_package( $listing->ID );
-	
+/*print_r($listing_package['saved']);
+    print_r($listing_package['current']);
+    echo $listing_package['saved_featured'];
+    echo $listing_package['saved_name'];*/
+    /*echo '<br><br>';*/
         $featured = boldthemes_rwmb_meta( 'boldthemes_theme_featured_listing', array(), $listing->ID );
         if ( $featured == 'yes' ) {
 		return 1;
